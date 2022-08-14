@@ -2,7 +2,7 @@
   "name": "simple-server",
   "version": "1.0.0",
   "description": "A simple node.js serving required JSON",
-  "main": "app.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "npx nodemon . & yarn run sass",
