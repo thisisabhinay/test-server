@@ -1,0 +1,154 @@
+{
+    "I4Ei5fXPq4moqTBh": {
+        "id": "dz2DzMU-JlzGsOAH", 
+        "configuration": [
+            {
+                "type": "input",
+                "label": "Product Name",
+                "placeholder": "Enter product name",
+                "value": null,
+                "default_value": "Digital Cameras About Draft #1",
+                "optional": true
+            },
+            {
+                "type": "combobox",
+                "label": "Include Keywords",
+                "placeholder": "Enter keywords to include",
+                "value": null,
+                "default_value": null,
+                "optional": true
+            },
+            {
+                "type": "combobox",
+                "label": "Exclude Keywords",
+                "placeholder": "Enter keywords to exclude",
+                "value": null,
+                "default_value": [
+                    "laptops",
+                    "netbooks"
+                ],
+                "optional": true
+            }
+        ],
+        "usecase": {
+            "id": "I4Ei5fXPq4moqTBh",
+            "name": "Blog Title",
+            "type": "blog",
+            "url": "/usecase/blog/blog-title/"
+        }
+    },
+    "2HJdIJfebnTbBx_Y": {
+        "id": "AazBT-ENsU3Ub9QF",
+        "configuration": [
+            {
+                "type": "input",
+                "label": "Product Name",
+                "placeholder": "Enter product name",
+                "value": null,
+                "default_value": "Digital Cameras About Draft #1",
+                "optional": true
+            },
+            {
+                "type": "combobox",
+                "label": "Include Keywords",
+                "placeholder": "Enter keywords to include",
+                "value": null,
+                "default_value": null,
+                "optional": true
+            },
+            {
+                "type": "combobox",
+                "label": "Exclude Keywords",
+                "placeholder": "Enter keywords to exclude",
+                "value": null,
+                "default_value": [
+                    "laptops",
+                    "netbooks"
+                ],
+                "optional": true
+            }
+        ],
+        "usecase": {
+            "id": "2HJdIJfebnTbBx_Y",
+            "name": "Blog Outline",
+            "type": "blog",
+            "url": "/usecase/blog/blog-outline/"
+        }
+    },
+    "ivR__lvkNMlJ6k4t": {
+        "id": "4vGkvs1q6sJN2a15",
+        "configuration": [
+            {
+                "type": "input",
+                "label": "Product Name",
+                "placeholder": "Enter product name",
+                "value": null,
+                "default_value": "Digital Cameras About Draft #1",
+                "optional": true
+            },
+            {
+                "type": "combobox",
+                "label": "Include Keywords",
+                "placeholder": "Enter keywords to include",
+                "value": null,
+                "default_value": null,
+                "optional": true
+            },
+            {
+                "type": "combobox",
+                "label": "Exclude Keywords",
+                "placeholder": "Enter keywords to exclude",
+                "value": null,
+                "default_value": [
+                    "laptops",
+                    "netbooks"
+                ],
+                "optional": true
+            }
+        ],
+        "usecase": {
+            "id": "ivR__lvkNMlJ6k4t",
+            "name": "Blog Intro Paragraph",
+            "type": "blog",
+            "url": "/usecase/blog/blog-intro-para/"
+        }
+    },
+    "NWOgVc9Z4BoK_s8e": {
+        "id": "lggVgbjIN0HFVKbv",
+        "configuration": [
+            {
+                "type": "input",
+                "label": "Product Name",
+                "placeholder": "Enter product name",
+                "value": null,
+                "default_value": "Digital Cameras About Draft #1",
+                "optional": true
+            },
+            {
+                "type": "combobox",
+                "label": "Include Keywords",
+                "placeholder": "Enter keywords to include",
+                "value": null,
+                "default_value": null,
+                "optional": true
+            },
+            {
+                "type": "combobox",
+                "label": "Exclude Keywords",
+                "placeholder": "Enter keywords to exclude",
+                "value": null,
+                "default_value": [
+                    "laptops",
+                    "netbooks"
+                ],
+                "optional": true
+            }
+        ],
+        "usecase": {
+            "id": "NWOgVc9Z4BoK_s8e",
+            "name": "Amazon About Product",
+            "type": "product",
+            "url": "/usecase/product/amazon-about-product/"
+        }
+    }
+}

@@ -1,0 +1,25 @@
+{
+  "name": "simple-server",
+  "version": "1.0.0",
+  "description": "A simple node.js serving required JSON",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "dev": "npx nodemon . & yarn run sass",
+    "sass": "sass --watch views/index.sass public/css/main.css"
+  },
+  "author": "thisisabhinay",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.21.0",
+    "sass": "^1.54.4"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "nanoid": "3.3.4",
+    "pug": "^3.0.2"
+  }
+}

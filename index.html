@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Server</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Fira Code', monospace;
+            font-size: 1rem;
+            color: #212427;
+            padding: 2rem;
+        }
+
+        h1 {
+            margin-bottom: 2rem;
+        }
+
+        input, select, button{
+            font-family: 'Fira Code', monospace;
+            padding: 0.33rem;
+        }
+
+        code {
+            font-family: 'Fira Code', monospace;
+        }
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 2rem 0;
+            display: flex;
+            flex-direction: column;
+            gap: 1.67rem;
+            align-items: flex-start;
+            justify-content: flex-start;
+        }
+
+        li {
+            display: flex;
+            flex-direction: column;
+            gap: .33rem;
+            align-items: flex-start;
+            justify-content: flex-start;
+        }
+
+        li code:first-child {
+            font-weight: 700;
+        }
+
+        button {
+            margin: 1rem 0.67rem;
+            cursor: pointer;
+        }
+
+        table thead th {
+            text-align: left;
+            padding: 0.5rem 1rem;
+            border-bottom: 1px solid #d1d4d7;
+        }
+
+        h1 {
+            font-size: 3rem;
+        }
+        table thead th:first-child {
+            padding-left: 0;
+        }
+
+        table td {
+            padding: 0.5rem 1rem;
+        }
+
+        table tr td:first-child {
+            padding-left: 0;
+        }
+
+        table tbody tr:nth-child(even) {
+            background-color: #f1f4f7;
+        }
+
+        .row {
+            display: flex;
+            align-items: center;
+            gap: 12px
+        }
+
+        section{
+            display: flex;
+            flex-direction: row;
+            align-items: flex-start;
+            justify-content: flex-start;
+            gap: 5.33rem;
+        }
+
+        hr{
+            border: 1px solid #D1D4D7;
+            background: #D1D4D7;
+            opacity: 0.5;
+        }
+        .col:last-child{
+            padding-left: 1.67rem;
+            border-left: 1px solid #D1D4D7;
+        }
+    </style>
+
+</head>
+
+<body>
+    <h1>Content Studio - API Demo</h1>
+    <hr />
+    <div class="row">
+        <select id="usecases-list"></select>
+        <button id="new-project-button">Create New Project</button>
+    </div>
+    <hr />
+    <h2>
+        Projects List
+    </h2>
+    <section>
+        <div class="col">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Project ID</th>
+                        <th>Project Name</th>
+                        <th>Usecase</th>
+                        <th>Usecase URI</th>
+                        <th>Project Status</th>
+                        <th>Created Date</th>
+                    </tr>
+                </thead>
+                <tbody id="tbody">
+                </tbody>
+            </table>
+        </div>
+        <div class="col">
+            <ul>
+                <li>
+                    <code>
+                        All Result
+                    </code>
+                    <code>
+                        <a href="/api/v1/result/" target="_blank" rel="noopener noreferrer">/api/v1/result/</a>
+                    </code>
+                </li>
+                <li>
+                    <code>
+                        Single Result
+                    </code>
+                    <code>
+                        <a href="/api/v1/result/Tb0yKIhdVcmg0l_c" target="_blank" rel="noopener noreferrer">/api/v1/result/Tb0yKIhdVcmg0l_c</a>
+                    </code>
+                </li>
+                <li>
+                    <code>
+                        All Usecases
+                    </code>
+                    <code>
+                        <a href="/api/v1/usecase/" target="_blank" rel="noopener noreferrer">/api/v1/usecase/</a>
+                    </code>
+                </li>
+                <li>
+                    <code>
+                        Single Usecase
+                    </code>
+                    <code>
+                        <a href="/api/v1/usecase/ivR__lvkNMlJ6k4t" target="_blank" rel="noopener noreferrer">/api/v1/usecase/ivR__lvkNMlJ6k4t</a>
+                    </code>
+                </li>
+                <li>
+                    <code>
+                        All Configs
+                    </code>
+                    <code>
+                        <a href="/api/v1/config/" target="_blank" rel="noopener noreferrer">/api/v1/config/</a>
+                    </code>
+                </li>
+                <li>
+                    <code>
+                        Config of a given usecase
+                    </code>
+                    <code>
+                        <a href="/api/v1/config/2HJdIJfebnTbBx_Y" target="_blank" rel="noopener noreferrer">/api/v1/config/2HJdIJfebnTbBx_Y</a>
+                    </code>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <script type="module">
+        import { nanoid } from "https://cdn.jsdelivr.net/npm/nanoid/nanoid.js";
+
+        const state = {};
+       
+        (async () => {
+            // Use Case Selection
+            try {
+                const payload = await fetch(
+                    window.location.origin + "/api/v1/usecase/",
+                )
+                const list = await payload.json()
+                state.usecases = list
+                const select = document.getElementById("usecases-list")
+                let _t = ""
+                list.forEach((item, i) => {
+                    if (i === 0) state.selectedUseCase = item.id
+                    _t += `
+                        <option value="${item.id}">${item.name}</option>    
+                    `
+                })
+                select.innerHTML = _t;
+
+                // On changing use case, fetch configuration
+                select.addEventListener("change", async (e) => {
+                    let usecaseId = e.target.value
+                    state.selectedUseCase = usecaseId
+                    console.log(state)
+                })
+            } catch (error) {
+                console.error(error)
+            }
+
+        })();
+
+        (async () => {
+            // Creates project
+            const npButton = document.getElementById("new-project-button");
+            npButton.addEventListener("click", async () => {
+                const config = (state.usecases.filter((item) => item.id === state.selectedUseCase))[0]
+                const uid = nanoid(16);
+                const url = `/api/v1/project/${uid}`;
+                console.log(config)
+                const res = await fetch(window.location.origin + url, {
+                    method: "POST",
+                    body: JSON.stringify(config),
+                    headers: {
+                        "Content-type": "application/json; charset=UTF-8",
+                    },
+                });
+
+                const project = await res.json();
+                console.log(project);
+            })
+        })();
+
+        // Project Generation
+        const generateProjectsList = async (list) => {
+            const tbody = document.getElementById("tbody")
+            const generateRow = (item) => {
+                const url = window.location.origin + "/api/v1/project/" + item.id
+                const node = document.createElement("tr")
+                const _t = `
+                    <td>${item.id}</td>
+                    <td><a target="_blank" href=${url}>${item.name}</a></td>
+                    <td>${item.usecase.name}</td>
+                    <td><a target="_blank" href=${window.location.origin +
+                    "/api/v1/usecase/" +
+                    item.usecase.id
+                    }>/api/v1/usecase/${item.usecase.id}</a></td>
+                    <td>
+                        ${item.status}
+                        <br/>
+                        <select id="${item.id}" class="status-select">
+                            <option value="Inbox" name="inbox">Inbox</option>    
+                            <option value="Archive" name="archive">Archive</option>    
+                            <option value="Trash" name="trash">Trash</option>    
+                        </select>
+                    </td>
+                    <td>${item.createdDate}</td>
+                `
+
+                node.innerHTML = _t
+                return node
+            }
+
+            list.forEach((item) => {
+                const li = generateRow(item)
+                tbody.appendChild(li)
+            })
+        }
+
+        (async () => {
+            try {
+                const payload = await fetch(window.location.origin + "/api/v1/project/")
+                const list = await payload.json()
+                await generateProjectsList(list)
+            } catch (error) {
+                console.error(error)
+            }
+
+            // Patch logic
+            Array.from(document.getElementsByClassName("status-select")).forEach(
+                (select) => {
+                    select.addEventListener("change", (e) => {
+                        patchStatus(e.target.id, e.target.value)
+                    })
+                },
+            )
+
+            const patchStatus = async (id, value) => {
+                console.log(id, value)
+                try {
+                    const url = `/api/v1/project/${id}`
+
+                    const res = await fetch(window.location.origin + url, {
+                        method: "PATCH",
+                        body: JSON.stringify({ status: value }),
+                        headers: {
+                            "Content-type": "application/json; charset=UTF-8",
+                        },
+                    })
+
+                    const project = await res.json()
+                    console.log(project)
+                } catch (error) {
+                    console.error(error)
+                }
+            }
+        })();
+
+    </script>
+</body>
+
+</html>

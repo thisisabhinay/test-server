@@ -1,0 +1,79 @@
+[
+    {
+        "id": "I4Ei5fXPq4moqTBh",
+        "name": "Blog Title",
+        "type": "blog",
+        "route": "/usecase/blog/blog-title/",
+        "configuration": [
+            {
+                "type": "input",
+                "label": "Topic",
+                "placeholder": "e.g. Meditation",
+                "value": null,
+                "default_value": null,
+                "optional": false,
+                "charsLimit": 90
+            }
+        ]
+    },
+    {
+        "id": "2HJdIJfebnTbBx_Y",
+        "name": "Blog Outline",
+        "type": "blog",
+        "route": "/usecase/blog/blog-outline/",
+        "configuration": [
+            {
+                "type": "input",
+                "label": "Blog Topic",
+                "placeholder": "e.g. How to use AI for blog writing?",
+                "value": null,
+                "default_value": null,
+                "optional": false,
+                "charsLimit": 120
+            }
+        ]
+    },
+    {
+        "id": "ivR__lvkNMlJ6k4t",
+        "name": "Blog Intro Paragraph",
+        "type": "blog",
+        "route": "/usecase/blog/blog-intro-para/",
+        "configuration": [
+            {
+                "type": "input",
+                "label": "Blog Topic",
+                "placeholder": "e.g. How to use AI for blog writing?",
+                "value": null,
+                "default_value": null,
+                "optional": false,
+                "charsLimit": 120
+            }
+        ]
+    },
+    {
+        "id": "NWOgVc9Z4BoK_s8e",
+        "name": "Amazon About Product",
+        "type": "product",
+        "route": "/usecase/product/amazon-about-product/",
+        "configuration": [
+            {
+                "type": "input",
+                "label": "Product Name",
+                "placeholder": "e.g. Kratr Airpops 411",
+                "value": null,
+                "default_value": null,
+                "optional": false,
+                "charsLimit": 120
+            },
+            {
+                "type": "textarea",
+                "label": "Product Description",
+                "placeholder": "e.g. Equipped with 8mm drivers, these dope wireless earbuds make your playlist sound better with crystal clear audio quality and powerful bass. Experience seamless calling and be clearly heard with ENxTM Technology. ASAPTM Charge technology empowers you with 75 minutes of playback with just 5 minutes of charging.",
+                "value": null,
+                "default_value": null,
+                "optional": false,
+                "charsLimit": 120
+            }
+        ]
+    }
+]
