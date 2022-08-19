@@ -25,18 +25,18 @@ const generateProject = (newId, usecase, results) => {
         "createdDate": new Date(),
         "lastEditdate": new Date(),
         "isDeleted": false,
-        "usecase": {...usecase, url: generateUseCaseUrl(usecase)},
         "document": {
-            "usecase_configuration": usecase.configuration
-        },
-        "result": {
-            "actions": {
-                "favorite": true,
-                "copy": true,
-                "delete": true,
-                "flag": true
+            "usecase": {...usecase, url: generateUseCaseUrl(usecase)},
+            "results": {
+                "actions": {
+                    "favorite": true,
+                    "copy": true,
+                    "delete": true,
+                    "flag": true
+                },
+                "list": attachResults(results, newId)
             },
-            "list": attachResults(results, newId)
+            history: {}
         },
         "organization" : {
             "id": nanoid(16),

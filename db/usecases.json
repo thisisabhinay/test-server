@@ -9,6 +9,7 @@
         "route": "/usecase/blog/blog-title/",
         "configuration": [
             {
+                "name": "topic",
                 "type": "input",
                 "label": "Topic",
                 "placeholder": "e.g. Meditation",
@@ -20,7 +21,7 @@
         ]
     },
     {
-        "id": "SO-aWAI_k9WxQ3UmuNXVN",
+        "id": "UXWVBdjcS9E62Ihm_4JBW",
         "name": "Blog Ideas",
         "description": "Unique ideas that the audience will enjoy reading.",
         "icon": "blog_ideas.svg",
@@ -29,6 +30,7 @@
         "route": "/usecase/blog/blog-ideas/",
         "configuration": [
             {
+                "name": "topic",
                 "type": "input",
                 "label": "Topic",
                 "placeholder": "e.g. Meditation",
@@ -49,6 +51,7 @@
         "route": "/usecase/blog/blog-outline/",
         "configuration": [
             {
+                "name": "topic",
                 "type": "input",
                 "label": "Blog Topic",
                 "placeholder": "e.g. How to use AI for blog writing?",
@@ -69,6 +72,7 @@
         "route": "/usecase/blog/blog-intro-para/",
         "configuration": [
             {
+                "name": "topic",
                 "type": "input",
                 "label": "Blog Topic",
                 "placeholder": "e.g. How to use AI for blog writing?",
@@ -89,6 +93,7 @@
         "route": "/usecase/blog/featured-snippets/",
         "configuration": [
             {
+                "name": "topic",
                 "type": "input",
                 "label": "Snippet Topic",
                 "placeholder": "e.g. How to use AI for blog writing?",
@@ -109,6 +114,7 @@
         "route": "/usecase/blog/blog-bullet-points/",
         "configuration": [
             {
+                "name": "topic",
                 "type": "input",
                 "label": "Blog Topic",
                 "placeholder": "e.g. How to use AI for blog writing?",
@@ -129,6 +135,7 @@
         "route": "/usecase/product/amazon-about-product/",
         "configuration": [
             {
+                "name": "name",
                 "type": "input",
                 "label": "Product Name",
                 "placeholder": "e.g. Kratr Airpops 411",
@@ -138,6 +145,7 @@
                 "charsLimit": 120
             },
             {
+                "name": "description",
                 "type": "textarea",
                 "label": "Product Description",
                 "placeholder": "e.g. Equipped with 8mm drivers, these dope wireless earbuds make your playlist sound better with crystal clear audio quality and powerful bass. Experience seamless calling and be clearly heard with ENxTM Technology. ASAPTM Charge technology empowers you with 75 minutes of playback with just 5 minutes of charging.",
