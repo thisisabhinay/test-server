@@ -7,7 +7,8 @@ const returnListIfNoItemFound = (_id, list) => {
 }
 
 const generateProjectUrl = (id, {type, name}) => {
-    return `/usecase/${type}/${name?.split(" ").join("-").toLowerCase()}/${id}`
+    // return `/usecase/${type}/${name?.split(" ").join("-").toLowerCase()}/${id}`
+    return `project/${id}`
 }
 
 const generateUseCaseUrl = ({type, name}) => {
@@ -98,7 +99,9 @@ const attachResults = (results, projectId) => {
         }
         
         doneList[index] = true
-        result.projectId = projectId
+        if(result){
+            result.projectId = projectId
+        }
         newResults.push(result)
     }
 

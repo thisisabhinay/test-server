@@ -16,7 +16,7 @@ let {
     returnListIfNoItemFound, 
     updateProjectsWithNewProject,
     updateProjectsWithPatch
-} =  require("./src/utils/utils.js")
+} = require("./src/utils/utils.js")
 
 app.use(bodyParser.urlencoded({ extended: false }))
 app.use(bodyParser.json())
@@ -64,6 +64,7 @@ app.get(["/api/v1/config/", "/api/v1/config/:usecaseId"], function (req, res) {
 
 app.post("/api/v1/project/:id", function(req, res) {
     const newProjectId = req?.params?.id
+    console.log("Recieved new id - ", newProjectId)
     const updatedList = updateProjectsWithNewProject(projects, newProjectId, results, req.body)
     res.json(updatedList[updatedList.length - 1])
     res.end()

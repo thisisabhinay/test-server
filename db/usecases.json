@@ -1,7 +1,10 @@
 [
     {
-        "id": "I4Ei5fXPq4moqTBh",
+        "id": "SO-aWAI_k9WxQ3UmuNXVN",
         "name": "Blog Title",
+        "description": "Compelling Titles inline with the search volume.",
+        "icon": "blog_title.svg",
+        "active": true,
         "type": "blog",
         "route": "/usecase/blog/blog-title/",
         "configuration": [
@@ -17,8 +20,31 @@
         ]
     },
     {
-        "id": "2HJdIJfebnTbBx_Y",
+        "id": "SO-aWAI_k9WxQ3UmuNXVN",
+        "name": "Blog Ideas",
+        "description": "Unique ideas that the audience will enjoy reading.",
+        "icon": "blog_ideas.svg",
+        "active": true,
+        "type": "blog",
+        "route": "/usecase/blog/blog-ideas/",
+        "configuration": [
+            {
+                "type": "input",
+                "label": "Topic",
+                "placeholder": "e.g. Meditation",
+                "value": null,
+                "default_value": null,
+                "optional": false,
+                "charsLimit": 90
+            }
+        ]
+    },
+    {
+        "id": "Z0es2UJzDgK49Du86zfiu",
         "name": "Blog Outline",
+        "description": "Outlines that help build a cohesive content.",
+        "icon": "blog_outline.svg",
+        "active": true,
         "type": "blog",
         "route": "/usecase/blog/blog-outline/",
         "configuration": [
@@ -34,8 +60,11 @@
         ]
     },
     {
-        "id": "ivR__lvkNMlJ6k4t",
+        "id": "_1bPaVAerJh2i_SPeVnE1",
         "name": "Blog Intro Paragraph",
+        "description": "Introduction that piques the interest of the audience.",
+        "icon": "blog_intro.svg",
+        "active": true,
         "type": "blog",
         "route": "/usecase/blog/blog-intro-para/",
         "configuration": [
@@ -51,8 +80,51 @@
         ]
     },
     {
-        "id": "NWOgVc9Z4BoK_s8e",
+        "id": "P_RstTRVtjtbLPx_Hw2Je",
+        "name": "Featured Snippets",
+        "description": "Snippets that rank for Position Zero on Search Engines.",
+        "icon": "blog_snippets.svg",
+        "active": false,
+        "type": "blog",
+        "route": "/usecase/blog/featured-snippets/",
+        "configuration": [
+            {
+                "type": "input",
+                "label": "Snippet Topic",
+                "placeholder": "e.g. How to use AI for blog writing?",
+                "value": null,
+                "default_value": null,
+                "optional": false,
+                "charsLimit": 120
+            }
+        ]
+    },
+    {
+        "id": "z231Z1die5zVigoGtyLa5",
+        "name": "Bullet Points to Blog",
+        "description": "Bullet points converted to grammatically correct sentences.",
+        "icon": "blog_bulletpoints.svg",
+        "active": false,
+        "type": "blog",
+        "route": "/usecase/blog/blog-bullet-points/",
+        "configuration": [
+            {
+                "type": "input",
+                "label": "Blog Topic",
+                "placeholder": "e.g. How to use AI for blog writing?",
+                "value": null,
+                "default_value": null,
+                "optional": false,
+                "charsLimit": 120
+            }
+        ]
+    },
+    {
+        "id": "zPcLPpQhETrFp_UN212j6",
         "name": "Amazon About Product",
+        "description": "Bullet Points describing product features and specifications.",
+        "icon": "product_amazonabout.svg",
+        "active": true,
         "type": "product",
         "route": "/usecase/product/amazon-about-product/",
         "configuration": [
