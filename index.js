@@ -83,7 +83,8 @@ app.patch("/api/v1/project/:id", function(req, res) {
     })
     
     project = project[0]
-    project.status = req.body.status
+    project = {...project, ...req?.body}
+    console.log(project)
     projects[index] = project
     updateProjectsWithPatch(projects)
     res.json(project)

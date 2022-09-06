@@ -15,18 +15,18 @@ const generateUseCaseUrl = ({type, name}) => {
     return `/usecase/${type}/${name?.split(" ").join("-").toLowerCase()}/`
 }
 
-const generateProject = (newId, usecase, results) => {
+const generateProject = (newId, data, results) => {
     return {
         "id": newId,
         "name": `Untitled Project_${nanoid(3)}`,
         "state": null,
         "status": "Inbox",
-        "url": generateProjectUrl(newId, usecase),
+        "url": generateProjectUrl(newId, data.usecase),
         "createdDate": new Date(),
         "lastEditdate": new Date(),
         "isDeleted": false,
         "document": {
-            "usecase": {...usecase, url: generateUseCaseUrl(usecase)},
+            "usecase": {...data?.usecase, url: generateUseCaseUrl(data?.usecase)},
             "results": {
                 "actions": {
                     "favorite": true,
@@ -36,7 +36,8 @@ const generateProject = (newId, usecase, results) => {
                 },
                 "list": attachResults(results, newId)
             },
-            history: {}
+            history: {},
+            content: data.content
         },
         "organization" : {
             "id": nanoid(16),
@@ -57,9 +58,9 @@ const generateProject = (newId, usecase, results) => {
     }
 }
 
-const updateProjectsWithNewProject = (list, id, results, usecase) => {
+const updateProjectsWithNewProject = (list, id, results, data) => {
     if(!list) list = []
-    const project = generateProject(id, usecase, results)
+    const project = generateProject(id, data, results)
     const content = ([...list, project])
 
     fs.writeFile("./db/projects.json", JSON.stringify(content, null, 4), function writeJSON(err) {
@@ -72,7 +73,7 @@ const updateProjectsWithNewProject = (list, id, results, usecase) => {
 }
 
 const updateProjectsWithPatch = (list) => {
-    if(!list) list = []
+    if(!list || !list?.length) list = []
     fs.writeFile("./db/projects.json", JSON.stringify(list, null, 4), function writeJSON(err) {
         if (err) return console.log(err)
         console.log(JSON.stringify(list))
