@@ -63,22 +63,22 @@ const updateProjectsWithNewProject = (list, id, results, data) => {
     const project = generateProject(id, data, results)
     const content = ([...list, project])
 
-    fs.writeFile("./db/projects.json", JSON.stringify(content, null, 4), function writeJSON(err) {
-        if (err) return console.log(err)
-        console.log(JSON.stringify(content))
-        console.log("writing to ./db/projects.json")
-    })
+    // fs.writeFile("./db/projects.json", JSON.stringify(content, null, 4), function writeJSON(err) {
+    //     if (err) return console.log(err)
+    //     console.log(JSON.stringify(content))
+    //     console.log("writing to ./db/projects.json")
+    // })
 
     return content
 }
 
 const updateProjectsWithPatch = (list) => {
     if(!list || !list?.length) list = []
-    fs.writeFile("./db/projects.json", JSON.stringify(list, null, 4), function writeJSON(err) {
-        if (err) return console.log(err)
-        console.log(JSON.stringify(list))
-        console.log("writing to ./db/projects.json")
-    })
+    // fs.writeFile("./db/projects.json", JSON.stringify(list, null, 4), function writeJSON(err) {
+    //     if (err) return console.log(err)
+    //     console.log(JSON.stringify(list))
+    //     console.log("writing to ./db/projects.json")
+    // })
 
     return list
 }

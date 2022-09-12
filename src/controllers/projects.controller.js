@@ -32,9 +32,12 @@ const updateById = async(req, res, next) => {
     let projectId
     try {
         projectId = req?.params?.id
+        console.log(projectId)
 
         const update = req?.body
+        console.log("Update - ", update)
         const updatedProject = await projects.getUpdatedProjectObj(projectId, update)
+        console.log(updatedProject)
         res.json(await projects.updateProject(updatedProject))
     } catch (error) {
         console.error(
@@ -75,10 +78,16 @@ const getSuggestionsById = async (req, res, next) => {
 
     try {
         projectId = req?.params?.id
-        res.json(await projects.getProjectById(projectId))
+
+        const project = await projects.getProjectById(projectId)
+        const newResults = projects.generateProjectResults(projectId)
+        
+        project.document.results.list = project.document.results.list.concat(newResults)
+        projects.updateProject(project)
+        res.json(project.document.results.list)
     } catch (error) {
         console.error(
-            "Error while getting fetching the project with id '%s' from the DB: %s",
+            "Error while getting fetching suggestions for project with id '%s' from the DB: %s",
             projectId,
             error.message,
         )

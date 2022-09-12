@@ -1,1 +1,1987 @@
-[]
+[
+    {
+        "id": "39738fb12bc54969e57d130a7111645a",
+        "name": "Some random draft",
+        "state": null,
+        "status": "Inbox",
+        "url": "project/39738fb12bc54969e57d130a7111645a",
+        "createdDate": "2022-09-12T19:59:45.573Z",
+        "lastEditdate": "2022-09-12T19:59:45.573Z",
+        "isDeleted": false,
+        "document": {
+            "usecase": {
+                "id": "SO-aWAI_k9WxQ3UmuNXVN",
+                "name": "Blog Title",
+                "description": "Compelling Titles inline with the search volume.",
+                "icon": "blog_title.svg",
+                "active": true,
+                "type": "blog",
+                "route": "/usecase/blog/blog-title/",
+                "configuration": [
+                    {
+                        "name": "topic",
+                        "type": "input",
+                        "label": "Topic",
+                        "placeholder": "e.g. Meditation",
+                        "value": null,
+                        "default_value": null,
+                        "optional": false,
+                        "charsLimit": 90
+                    }
+                ],
+                "url": "/usecase/blog/undefined/"
+            },
+            "results": {
+                "actions": {
+                    "favorite": true,
+                    "copy": true,
+                    "delete": true,
+                    "flag": true
+                },
+                "list": [
+                    {
+                        "id": "OXeBT-5RchDOU3C9g-89J",
+                        "content": "Exercitation eiusmod deserunt aliqua ea est dolor anim laborum cupidatat deserunt tempor. Aute qui proident voluptate aute ea. Duis magna enim officia exercitation amet mollit qui ipsum qui ut deserunt velit proident pariatur nostrud. Esse aliquip fugiat exercitation laboris proident ut labore excepteur cillum elit velit.",
+                        "type": "paragraph",
+                        "volume": "2,354,635",
+                        "impressions": "32,371",
+                        "projectId": "39738fb12bc54969e57d130a7111645a"
+                    },
+                    {
+                        "id": "IjFF5vg51e7hH_f_9BvPz",
+                        "content": "Mollit laboris ex ad. Id eiusmod ut duis voluptate officia cillum labore exercitation quis enim anim sit aliqua. Deserunt eiusmod voluptate veniam veniam anim ipsum cupidatat adipisicing quis ea excepteur aliqua aute.",
+                        "type": "paragraph",
+                        "volume": "3,753,011",
+                        "impressions": "98,715",
+                        "projectId": "39738fb12bc54969e57d130a7111645a"
+                    },
+                    {
+                        "id": "N2pwrp3pyBGl96lAKA2f6",
+                        "content": "Laboris proident magna sint cupidatat do ullamco nulla sit irure. Amet anim ullamco occaecat est proident ut. Ullamco ullamco voluptate officia sit esse dolor cupidatat non proident labore exercitation ex adipisicing aute. Dolor id ad voluptate velit nulla cillum amet irure ullamco non consequat esse amet in.",
+                        "type": "paragraph",
+                        "volume": "387,873",
+                        "impressions": "63,593",
+                        "projectId": "39738fb12bc54969e57d130a7111645a"
+                    },
+                    {
+                        "id": "btty38wvLFgKZsRY_B5RV",
+                        "content": "Minim velit incididunt excepteur enim labore sint sit labore ea aliquip. Cupidatat qui culpa laborum magna fugiat sit. Tempor et amet exercitation ad velit ut incididunt tempor occaecat mollit aliquip. Non eu aliqua nulla reprehenderit eu officia sint deserunt sint ad fugiat tempor dolor.",
+                        "type": "paragraph",
+                        "volume": "2,900,743",
+                        "impressions": "7,408",
+                        "projectId": "39738fb12bc54969e57d130a7111645a"
+                    },
+                    {
+                        "id": "ODETCOq0u02JSVvrvG3nN",
+                        "content": "Consectetur consequat elit laboris exercitation sit nostrud nostrud laboris in ea. Sunt sint occaecat exercitation aute magna ullamco non Lorem cupidatat laboris.",
+                        "type": "paragraph",
+                        "volume": "4,375,697",
+                        "impressions": "48,849",
+                        "projectId": "39738fb12bc54969e57d130a7111645a"
+                    },
+                    {
+                        "id": "2FPJ7xdy4efd22vNgtSFb",
+                        "content": "Sint labore enim consectetur est non anim non incididunt aute amet. Enim minim dolore ipsum deserunt. Dolor aute nisi fugiat fugiat sit ea ut adipisicing proident reprehenderit.",
+                        "type": "paragraph",
+                        "volume": "4,731,778",
+                        "impressions": "10,259",
+                        "projectId": "39738fb12bc54969e57d130a7111645a"
+                    },
+                    {
+                        "id": "EdN3mCZPWDqhgaJ6hEj5u",
+                        "content": "Ullamco voluptate et nostrud ex qui velit. Ipsum minim ipsum ea duis Lorem enim veniam Lorem duis duis. Nostrud veniam qui consequat veniam nulla est veniam exercitation laboris aute non. Voluptate commodo consequat proident adipisicing adipisicing exercitation aliqua.",
+                        "type": "paragraph",
+                        "volume": "7,367,085",
+                        "impressions": "29,216",
+                        "projectId": "39738fb12bc54969e57d130a7111645a"
+                    },
+                    {
+                        "id": "Cr6AA9zUyBppaE2nD0VrE",
+                        "content": "Tempor fugiat deserunt dolore quis. Consectetur qui occaecat cillum reprehenderit ex proident velit cupidatat dolor quis nostrud deserunt ullamco.",
+                        "type": "paragraph",
+                        "volume": "683,520",
+                        "impressions": "42,942",
+                        "projectId": "39738fb12bc54969e57d130a7111645a"
+                    },
+                    {
+                        "id": "EGLhTgIE3y207_k0sSAw5",
+                        "content": "Tempor ipsum aute dolor esse veniam. Voluptate aliqua ipsum dolore voluptate ea aliqua do tempor enim fugiat. Aute incididunt pariatur ut ad irure ex ullamco.",
+                        "type": "paragraph",
+                        "volume": "6,893,739",
+                        "impressions": "95,027",
+                        "projectId": "39738fb12bc54969e57d130a7111645a"
+                    },
+                    {
+                        "id": "85Kpx4UdSu58hQkgpUtzl",
+                        "content": "Anim elit ad pariatur nisi sunt sunt proident amet dolor. Pariatur velit Lorem id officia proident exercitation laboris et. Veniam laboris mollit sint exercitation minim qui et irure reprehenderit ad adipisicing duis nulla amet nisi.",
+                        "type": "paragraph",
+                        "volume": "8,398,090",
+                        "impressions": "16,924",
+                        "projectId": "39738fb12bc54969e57d130a7111645a"
+                    },
+                    {
+                        "id": "jLe3wguIAODdbT4at1MDm",
+                        "content": "Labore occaecat sunt qui. Enim veniam laborum excepteur enim culpa labore cupidatat tempor non anim adipisicing. Laboris proident adipisicing ullamco officia qui consequat Lorem est ea nostrud. Ea veniam minim excepteur officia ea quis duis occaecat laborum amet consequat dolor deserunt esse nulla.",
+                        "type": "paragraph",
+                        "volume": "4,230,356",
+                        "impressions": "10,156",
+                        "projectId": "39738fb12bc54969e57d130a7111645a"
+                    },
+                    {
+                        "id": "L627n9IoyF9UCUMfk-BkN",
+                        "content": "Sit deserunt nisi deserunt. Non voluptate irure minim velit deserunt qui fugiat dolor consequat. Amet ea dolor sit pariatur quis reprehenderit cillum duis nostrud in. Excepteur do aliquip Lorem eiusmod esse officia labore consectetur est. Elit enim in Lorem eiusmod ea do occaecat nulla consequat id non dolor exercitation.",
+                        "type": "paragraph",
+                        "volume": "3,128,741",
+                        "impressions": "99,505",
+                        "projectId": "39738fb12bc54969e57d130a7111645a"
+                    },
+                    {
+                        "id": "PEy6zYNleC_Xrq_Z-79J8",
+                        "content": "Aute eu veniam occaecat adipisicing dolor Lorem cillum non sit. Aute ut laborum dolore nulla est laboris nulla officia ea ut id nisi mollit eiusmod.",
+                        "type": "paragraph",
+                        "volume": "205,992",
+                        "impressions": "79,818",
+                        "projectId": "39738fb12bc54969e57d130a7111645a"
+                    }
+                ]
+            },
+            "history": {}
+        },
+        "organization": {
+            "id": "f3789b2f05f431dff1aed18e17fdf30b",
+            "name": "Abhinay's Org"
+        },
+        "team": {
+            "id": "0832e03b0742608e996c8f8afb878f08",
+            "name": "Content Writers"
+        },
+        "product": {
+            "id": "0806449ba6005d457974c0a8a07d04fa",
+            "name": "Content Studio"
+        },
+        "creator": {
+            "user_id": "a687e4b95e138631b243075735afb29e",
+            "name": "Abhinay Thakur"
+        }
+    },
+    {
+        "id": "c50dd171fcad0da96e65db5f5b76a43b",
+        "name": "Untitled Project_ba4",
+        "state": null,
+        "status": "Inbox",
+        "url": "project/c50dd171fcad0da96e65db5f5b76a43b",
+        "createdDate": "2022-09-12T20:13:10.549Z",
+        "lastEditdate": "2022-09-12T20:13:10.549Z",
+        "isDeleted": false,
+        "document": {
+            "usecase": {
+                "id": "SO-aWAI_k9WxQ3UmuNXVN",
+                "name": "Blog Title",
+                "description": "Compelling Titles inline with the search volume.",
+                "icon": "blog_title.svg",
+                "active": true,
+                "type": "blog",
+                "route": "/usecase/blog/blog-title/",
+                "configuration": [
+                    {
+                        "name": "topic",
+                        "type": "input",
+                        "label": "Topic",
+                        "placeholder": "e.g. Meditation",
+                        "value": null,
+                        "default_value": null,
+                        "optional": false,
+                        "charsLimit": 90
+                    }
+                ],
+                "url": "/usecase/blog/undefined/"
+            },
+            "results": {
+                "actions": {
+                    "favorite": true,
+                    "copy": true,
+                    "delete": true,
+                    "flag": true
+                },
+                "list": [
+                    {
+                        "id": "lTJ5xZwH-25qug5FPE2b0",
+                        "content": "Magna culpa nisi incididunt excepteur tempor. Nisi mollit in enim tempor veniam qui. Officia adipisicing nostrud et voluptate ut sint cillum aliqua consequat labore ullamco. Excepteur sit eu excepteur laborum officia in deserunt reprehenderit irure. Nisi cillum id reprehenderit aliquip veniam magna culpa ipsum.",
+                        "type": "paragraph",
+                        "volume": "6,633,359",
+                        "impressions": "26,893",
+                        "projectId": "c50dd171fcad0da96e65db5f5b76a43b"
+                    },
+                    {
+                        "id": "9Acbrjv9J5O-zg1FHNWl5",
+                        "content": "Culpa excepteur ex veniam ut ullamco nisi ut aliqua anim. Qui aute ipsum consectetur mollit ex qui amet laborum pariatur proident nostrud consectetur. Nostrud sint anim commodo proident id veniam. Eiusmod exercitation dolore duis occaecat ea amet eiusmod eiusmod exercitation.",
+                        "type": "paragraph",
+                        "volume": "8,141,175",
+                        "impressions": "61,152",
+                        "projectId": "c50dd171fcad0da96e65db5f5b76a43b"
+                    },
+                    {
+                        "id": "ZH8H-TgbZGboGxartGKHN",
+                        "content": "Duis est voluptate nisi occaecat ex magna ad sunt ullamco elit. Enim enim occaecat laboris et tempor anim sit tempor voluptate dolor voluptate.",
+                        "type": "paragraph",
+                        "volume": "7,712,582",
+                        "impressions": "90,548",
+                        "projectId": "c50dd171fcad0da96e65db5f5b76a43b"
+                    },
+                    {
+                        "id": "tn6We4hz_lStfJZpaYWPS",
+                        "content": "Velit dolor aliqua adipisicing laboris ut ex duis incididunt ea excepteur occaecat labore. Excepteur reprehenderit enim ex laborum nulla. Ullamco sit incididunt esse ut cupidatat anim fugiat elit dolore. Do ea eiusmod irure nulla culpa eu reprehenderit cillum.",
+                        "type": "paragraph",
+                        "volume": "3,023,312",
+                        "impressions": "29,689",
+                        "projectId": "c50dd171fcad0da96e65db5f5b76a43b"
+                    },
+                    {
+                        "id": "N-SdmRf2wq5wGCOydl9kW",
+                        "content": "Culpa minim esse sunt culpa magna ex quis ipsum labore exercitation eiusmod anim proident ut. Cupidatat eu fugiat minim ex amet do duis irure anim qui consequat proident anim sit eu. Eu quis voluptate voluptate ex aliquip incididunt laboris ullamco. Occaecat deserunt do fugiat nisi aliquip proident velit laboris magna fugiat nisi. Tempor officia nisi Lorem excepteur magna adipisicing dolor.",
+                        "type": "paragraph",
+                        "volume": "2,067,411",
+                        "impressions": "77,773",
+                        "projectId": "c50dd171fcad0da96e65db5f5b76a43b"
+                    },
+                    {
+                        "id": "IKfUpywlF4Ce6KKVTJSEl",
+                        "content": "Officia amet duis eiusmod consequat exercitation Lorem et minim. Et consectetur non eiusmod dolor do culpa ipsum aliqua occaecat. Mollit fugiat amet eu minim qui commodo fugiat laborum ea non labore labore sit enim ut.",
+                        "type": "paragraph",
+                        "volume": "5,783,880",
+                        "impressions": "28,986",
+                        "projectId": "c50dd171fcad0da96e65db5f5b76a43b"
+                    },
+                    {
+                        "id": "LWVIl2ebd1V6KSwDd43Oh",
+                        "content": "Esse ut consectetur commodo excepteur. Fugiat adipisicing cillum adipisicing non excepteur in. Deserunt pariatur minim Lorem ea duis labore dolor et. Ea consequat Lorem amet culpa aliqua est est et ullamco. Officia velit ea irure commodo qui eu elit est magna duis nulla excepteur.",
+                        "type": "paragraph",
+                        "volume": "2,072,877",
+                        "impressions": "71,689",
+                        "projectId": "c50dd171fcad0da96e65db5f5b76a43b"
+                    },
+                    {
+                        "id": "OXeBT-5RchDOU3C9g-89J",
+                        "content": "Exercitation eiusmod deserunt aliqua ea est dolor anim laborum cupidatat deserunt tempor. Aute qui proident voluptate aute ea. Duis magna enim officia exercitation amet mollit qui ipsum qui ut deserunt velit proident pariatur nostrud. Esse aliquip fugiat exercitation laboris proident ut labore excepteur cillum elit velit.",
+                        "type": "paragraph",
+                        "volume": "2,354,635",
+                        "impressions": "32,371",
+                        "projectId": "c50dd171fcad0da96e65db5f5b76a43b"
+                    },
+                    {
+                        "id": "V9pq518qX0qeRfyBykOET",
+                        "content": "Sit commodo officia laboris sint. Id adipisicing et excepteur veniam cillum laboris. Labore consectetur ullamco duis exercitation ullamco do reprehenderit minim anim nisi proident sunt id laborum proident. Nostrud elit elit reprehenderit ad cupidatat aliqua nulla mollit sunt non proident cillum nisi.",
+                        "type": "paragraph",
+                        "volume": "6,748,438",
+                        "impressions": "16,304",
+                        "projectId": "c50dd171fcad0da96e65db5f5b76a43b"
+                    },
+                    {
+                        "id": "sLEjSHrnQFbjprGPLtDT_",
+                        "content": "Eu Lorem adipisicing veniam velit excepteur consequat consectetur aliqua tempor aute eu eu. Mollit deserunt ad adipisicing nulla veniam aute consectetur est.",
+                        "type": "paragraph",
+                        "volume": "5,808,106",
+                        "impressions": "54,551",
+                        "projectId": "c50dd171fcad0da96e65db5f5b76a43b"
+                    },
+                    {
+                        "id": "uDuHRvowi2YRhCEyhGsRd",
+                        "content": "Aute exercitation aliqua non dolore velit magna pariatur in. Ad ipsum dolore occaecat proident. Magna mollit incididunt cillum nulla enim aliquip laborum proident est aliqua tempor reprehenderit qui exercitation. Exercitation quis amet aute elit cupidatat officia occaecat. Voluptate deserunt dolore culpa eu elit excepteur non nulla.",
+                        "type": "paragraph",
+                        "volume": "8,529,165",
+                        "impressions": "86,033",
+                        "projectId": "c50dd171fcad0da96e65db5f5b76a43b"
+                    },
+                    {
+                        "id": "ZH8H-TgbZGboGxartGKHN",
+                        "content": "Duis est voluptate nisi occaecat ex magna ad sunt ullamco elit. Enim enim occaecat laboris et tempor anim sit tempor voluptate dolor voluptate.",
+                        "type": "paragraph",
+                        "volume": "7,712,582",
+                        "impressions": "90,548",
+                        "projectId": "c50dd171fcad0da96e65db5f5b76a43b"
+                    },
+                    {
+                        "id": "Eq9lYLDyA0oRvCFJmP4rM",
+                        "content": "Enim exercitation in laborum culpa eiusmod nostrud. Anim nostrud ex aute ut tempor excepteur mollit occaecat dolore irure do. Quis cillum commodo quis anim commodo officia.",
+                        "type": "paragraph",
+                        "volume": "9,392,796",
+                        "impressions": "96,611",
+                        "projectId": "c50dd171fcad0da96e65db5f5b76a43b"
+                    },
+                    {
+                        "id": "bqrWZYmZ4S9SprWns2YLh",
+                        "content": "Officia culpa sit occaecat elit cillum eu amet ad non. Fugiat eu id ut anim duis enim fugiat. Esse culpa laborum pariatur amet reprehenderit mollit consectetur esse incididunt velit aliqua nisi non ad. Fugiat id Lorem adipisicing deserunt officia enim non exercitation mollit eu tempor aliqua reprehenderit officia excepteur. Enim eiusmod et aute tempor eu et consequat nisi minim id.",
+                        "type": "paragraph",
+                        "volume": "5,729,662",
+                        "impressions": "96,761",
+                        "projectId": "c50dd171fcad0da96e65db5f5b76a43b"
+                    },
+                    {
+                        "id": "ZWsj5idzIjK54ymsVjPQt",
+                        "content": "Ut aliqua sunt amet cillum do cupidatat do ea irure. Elit minim sit laboris. Eiusmod voluptate pariatur nostrud elit tempor.",
+                        "type": "paragraph",
+                        "volume": "3,247,377",
+                        "impressions": "92,541",
+                        "projectId": "c50dd171fcad0da96e65db5f5b76a43b"
+                    },
+                    {
+                        "id": "43D9zy3UESZece_kMfVaM",
+                        "content": "Officia non pariatur commodo officia enim sit qui non in consequat mollit qui et labore. Ut tempor irure ex id sit dolor ex. Laboris id mollit esse labore enim.",
+                        "type": "paragraph",
+                        "volume": "6,629,555",
+                        "impressions": "41,531",
+                        "projectId": "c50dd171fcad0da96e65db5f5b76a43b"
+                    },
+                    {
+                        "id": "lTJ5xZwH-25qug5FPE2b0",
+                        "content": "Magna culpa nisi incididunt excepteur tempor. Nisi mollit in enim tempor veniam qui. Officia adipisicing nostrud et voluptate ut sint cillum aliqua consequat labore ullamco. Excepteur sit eu excepteur laborum officia in deserunt reprehenderit irure. Nisi cillum id reprehenderit aliquip veniam magna culpa ipsum.",
+                        "type": "paragraph",
+                        "volume": "6,633,359",
+                        "impressions": "26,893",
+                        "projectId": "c50dd171fcad0da96e65db5f5b76a43b"
+                    },
+                    {
+                        "id": "RqH13qsaDqWpN-81JIqo8",
+                        "content": "Minim consequat laborum cillum eu nisi commodo mollit laborum. Eiusmod ut quis culpa eiusmod occaecat.",
+                        "type": "paragraph",
+                        "volume": "1,455,648",
+                        "impressions": "34,583",
+                        "projectId": "c50dd171fcad0da96e65db5f5b76a43b"
+                    },
+                    {
+                        "id": "Rz4Qp5xy07PLycqcHg1-Z",
+                        "content": "Ad aliqua elit incididunt qui eu laboris sint. Do occaecat occaecat qui aliqua velit cillum consequat nisi officia in exercitation laborum cupidatat. Elit sunt veniam laborum veniam aliqua deserunt culpa sint proident commodo laboris cupidatat duis eiusmod ex. Duis excepteur Lorem occaecat aliqua tempor exercitation. Aliquip tempor consectetur nulla fugiat nulla non officia fugiat commodo aute non mollit magna ipsum ipsum.",
+                        "type": "paragraph",
+                        "volume": "8,799,372",
+                        "impressions": "77,431",
+                        "projectId": "c50dd171fcad0da96e65db5f5b76a43b"
+                    },
+                    {
+                        "id": "IKfUpywlF4Ce6KKVTJSEl",
+                        "content": "Officia amet duis eiusmod consequat exercitation Lorem et minim. Et consectetur non eiusmod dolor do culpa ipsum aliqua occaecat. Mollit fugiat amet eu minim qui commodo fugiat laborum ea non labore labore sit enim ut.",
+                        "type": "paragraph",
+                        "volume": "5,783,880",
+                        "impressions": "28,986",
+                        "projectId": "c50dd171fcad0da96e65db5f5b76a43b"
+                    },
+                    {
+                        "id": "b9rL8eLh6Q3UDh5SS-RSt",
+                        "content": "Deserunt irure tempor consectetur ut laborum Lorem sunt commodo. Labore enim dolor voluptate sit laboris amet ea. Reprehenderit elit ex deserunt magna mollit excepteur laboris qui mollit sunt sit voluptate amet reprehenderit anim.",
+                        "type": "paragraph",
+                        "volume": "5,584,832",
+                        "impressions": "14,302",
+                        "projectId": "c50dd171fcad0da96e65db5f5b76a43b"
+                    },
+                    {
+                        "id": "ThnPy_5hSUn7Hhng_fg2y",
+                        "content": "Reprehenderit fugiat sint excepteur occaecat id duis cillum. Commodo cillum aliqua nisi do laborum ex cillum voluptate dolore sit deserunt. Ea culpa do cillum fugiat reprehenderit aliqua ex ex ipsum esse cillum. Sit esse voluptate dolore occaecat velit exercitation ea irure. Eiusmod sunt nostrud deserunt laboris incididunt id.",
+                        "type": "paragraph",
+                        "volume": "2,560,673",
+                        "impressions": "66,331",
+                        "projectId": "c50dd171fcad0da96e65db5f5b76a43b"
+                    },
+                    {
+                        "id": "FGmR4WJWDLQOCuPT5REEg",
+                        "content": "Commodo Lorem magna aliqua enim minim occaecat et consequat. Occaecat consequat reprehenderit ullamco nulla ad.",
+                        "type": "paragraph",
+                        "volume": "3,958,466",
+                        "impressions": "82,209",
+                        "projectId": "c50dd171fcad0da96e65db5f5b76a43b"
+                    },
+                    {
+                        "id": "9Acbrjv9J5O-zg1FHNWl5",
+                        "content": "Culpa excepteur ex veniam ut ullamco nisi ut aliqua anim. Qui aute ipsum consectetur mollit ex qui amet laborum pariatur proident nostrud consectetur. Nostrud sint anim commodo proident id veniam. Eiusmod exercitation dolore duis occaecat ea amet eiusmod eiusmod exercitation.",
+                        "type": "paragraph",
+                        "volume": "8,141,175",
+                        "impressions": "61,152",
+                        "projectId": "c50dd171fcad0da96e65db5f5b76a43b"
+                    },
+                    {
+                        "id": "btty38wvLFgKZsRY_B5RV",
+                        "content": "Minim velit incididunt excepteur enim labore sint sit labore ea aliquip. Cupidatat qui culpa laborum magna fugiat sit. Tempor et amet exercitation ad velit ut incididunt tempor occaecat mollit aliquip. Non eu aliqua nulla reprehenderit eu officia sint deserunt sint ad fugiat tempor dolor.",
+                        "type": "paragraph",
+                        "volume": "2,900,743",
+                        "impressions": "7,408",
+                        "projectId": "c50dd171fcad0da96e65db5f5b76a43b"
+                    },
+                    {
+                        "id": "leToBp40uvxBXK6Ccankl",
+                        "content": "Consequat aliqua in commodo ullamco Lorem sint culpa cillum duis eu minim amet incididunt incididunt dolore. Voluptate amet pariatur non ad ullamco duis minim veniam culpa est laborum. Ex aliquip consectetur qui consequat laborum fugiat adipisicing ullamco officia laboris non quis sunt commodo veniam.",
+                        "type": "paragraph",
+                        "volume": "7,586,037",
+                        "impressions": "68,128",
+                        "projectId": "c50dd171fcad0da96e65db5f5b76a43b"
+                    }
+                ]
+            },
+            "history": {}
+        },
+        "organization": {
+            "id": "7cac5c604400060f06ec16f95f2a97e4",
+            "name": "Abhinay's Org"
+        },
+        "team": {
+            "id": "774fbd5eee575df21dffa7c4f03c3f76",
+            "name": "Content Writers"
+        },
+        "product": {
+            "id": "43012904a6a5d28f2c937e0aa4c3e938",
+            "name": "Content Studio"
+        },
+        "creator": {
+            "user_id": "96ed44bd755f6f57b6a1d3d9003acdb4",
+            "name": "Abhinay Thakur"
+        }
+    },
+    {
+        "id": "73f3574bb16dbef8ef5158c81f2030fe",
+        "name": "Untitled Project_1c5",
+        "state": null,
+        "status": "Inbox",
+        "url": "project/73f3574bb16dbef8ef5158c81f2030fe",
+        "createdDate": "2022-09-12T20:19:44.253Z",
+        "lastEditdate": "2022-09-12T20:19:44.253Z",
+        "isDeleted": false,
+        "document": {
+            "usecase": {
+                "id": "SO-aWAI_k9WxQ3UmuNXVN",
+                "name": "Blog Title",
+                "description": "Compelling Titles inline with the search volume.",
+                "icon": "blog_title.svg",
+                "active": true,
+                "type": "blog",
+                "route": "/usecase/blog/blog-title/",
+                "configuration": [
+                    {
+                        "name": "topic",
+                        "type": "input",
+                        "label": "Topic",
+                        "placeholder": "e.g. Meditation",
+                        "value": null,
+                        "default_value": null,
+                        "optional": false,
+                        "charsLimit": 90
+                    }
+                ],
+                "url": "/usecase/blog/undefined/"
+            },
+            "results": {
+                "actions": {
+                    "favorite": true,
+                    "copy": true,
+                    "delete": true,
+                    "flag": true
+                },
+                "list": [
+                    {
+                        "id": "YIkHyqBv2yO-1CvvKfPtz",
+                        "content": "Id commodo amet id. Non minim fugiat exercitation fugiat aute duis tempor pariatur anim in labore ullamco sint. Qui ullamco aute incididunt culpa sit exercitation et laborum enim. Tempor proident anim magna excepteur consectetur. Amet mollit officia irure non qui qui eu duis consectetur voluptate Lorem nulla quis cillum.",
+                        "type": "paragraph",
+                        "volume": "5,115,914",
+                        "impressions": "86,696",
+                        "projectId": "73f3574bb16dbef8ef5158c81f2030fe"
+                    },
+                    {
+                        "id": "IjFF5vg51e7hH_f_9BvPz",
+                        "content": "Mollit laboris ex ad. Id eiusmod ut duis voluptate officia cillum labore exercitation quis enim anim sit aliqua. Deserunt eiusmod voluptate veniam veniam anim ipsum cupidatat adipisicing quis ea excepteur aliqua aute.",
+                        "type": "paragraph",
+                        "volume": "3,753,011",
+                        "impressions": "98,715",
+                        "projectId": "73f3574bb16dbef8ef5158c81f2030fe"
+                    },
+                    {
+                        "id": "Kpt2dJoVMZ3nS3j95ldM7",
+                        "content": "Pariatur fugiat ad commodo ipsum ad quis minim labore. Incididunt aute irure laborum irure minim labore exercitation. Quis enim minim quis non pariatur et eu excepteur sint laboris magna occaecat. Tempor aute voluptate nisi do sint non ex nisi aliquip occaecat consectetur. Consequat ex anim esse.",
+                        "type": "paragraph",
+                        "volume": "4,337,101",
+                        "impressions": "14,641",
+                        "projectId": "73f3574bb16dbef8ef5158c81f2030fe"
+                    },
+                    {
+                        "id": "CGv2lrhkHZw4YIqGza9zz",
+                        "content": "Velit magna quis ut enim proident commodo dolor amet sunt incididunt adipisicing. Sit duis Lorem laboris sit duis anim incididunt pariatur ea labore velit consectetur occaecat do. Ipsum consequat minim commodo ea aute amet tempor. Deserunt irure tempor laborum laborum nostrud occaecat nisi exercitation est qui velit.",
+                        "type": "paragraph",
+                        "volume": "8,639,414",
+                        "impressions": "17,300",
+                        "projectId": "73f3574bb16dbef8ef5158c81f2030fe"
+                    },
+                    {
+                        "id": "ODETCOq0u02JSVvrvG3nN",
+                        "content": "Consectetur consequat elit laboris exercitation sit nostrud nostrud laboris in ea. Sunt sint occaecat exercitation aute magna ullamco non Lorem cupidatat laboris.",
+                        "type": "paragraph",
+                        "volume": "4,375,697",
+                        "impressions": "48,849",
+                        "projectId": "73f3574bb16dbef8ef5158c81f2030fe"
+                    },
+                    {
+                        "id": "z9KUcwNUaFGXz3x_G9U99",
+                        "content": "Anim nulla anim exercitation ipsum ullamco qui deserunt laborum aute minim aliquip magna officia. Sint proident amet Lorem sint id esse minim proident reprehenderit nostrud incididunt exercitation ut anim. Anim sint Lorem ex do enim esse nisi duis cillum do qui Lorem. Deserunt qui cupidatat mollit velit Lorem labore. Dolor tempor magna anim mollit Lorem est cillum commodo.",
+                        "type": "paragraph",
+                        "volume": "1,173,917",
+                        "impressions": "73,729",
+                        "projectId": "73f3574bb16dbef8ef5158c81f2030fe"
+                    },
+                    {
+                        "id": "2RYSDFDb4Aw9xkAWXLFPC",
+                        "content": "Dolor enim labore ullamco aliqua culpa aute exercitation veniam elit Lorem laboris enim duis. Consectetur nisi ut incididunt nostrud sint cillum velit enim consequat incididunt labore ipsum. Aute sit dolore commodo esse ullamco. Ex dolore fugiat nisi minim sunt officia irure nulla sunt laboris excepteur laboris nisi dolor dolore.",
+                        "type": "paragraph",
+                        "volume": "7,022,637",
+                        "impressions": "7,444",
+                        "projectId": "73f3574bb16dbef8ef5158c81f2030fe"
+                    },
+                    {
+                        "id": "Hd5G0fHcNv3qgXrz9fIMu",
+                        "content": "Deserunt cillum exercitation fugiat culpa quis ad. Mollit pariatur aliqua velit aute labore. Ipsum veniam occaecat excepteur dolor et cupidatat nulla ullamco et commodo ipsum.",
+                        "type": "paragraph",
+                        "volume": "4,504,039",
+                        "impressions": "37,236",
+                        "projectId": "73f3574bb16dbef8ef5158c81f2030fe"
+                    },
+                    {
+                        "id": "dYV-Qat05EmD0qzDGRZDp",
+                        "content": "Sint amet ullamco excepteur aliqua ad quis. Quis ea ipsum cillum nostrud in adipisicing velit magna nulla aliqua. Mollit ipsum do duis nisi fugiat ad aliqua veniam eu elit.",
+                        "type": "paragraph",
+                        "volume": "4,409,680",
+                        "impressions": "34,754",
+                        "projectId": "73f3574bb16dbef8ef5158c81f2030fe"
+                    },
+                    {
+                        "id": "N-SdmRf2wq5wGCOydl9kW",
+                        "content": "Culpa minim esse sunt culpa magna ex quis ipsum labore exercitation eiusmod anim proident ut. Cupidatat eu fugiat minim ex amet do duis irure anim qui consequat proident anim sit eu. Eu quis voluptate voluptate ex aliquip incididunt laboris ullamco. Occaecat deserunt do fugiat nisi aliquip proident velit laboris magna fugiat nisi. Tempor officia nisi Lorem excepteur magna adipisicing dolor.",
+                        "type": "paragraph",
+                        "volume": "2,067,411",
+                        "impressions": "77,773",
+                        "projectId": "73f3574bb16dbef8ef5158c81f2030fe"
+                    },
+                    {
+                        "id": "pos4vHj1e1qqnKCeeobjs",
+                        "content": "Ullamco commodo proident culpa aliqua. Nostrud velit enim incididunt Lorem id ullamco consequat irure Lorem exercitation sit incididunt pariatur.",
+                        "type": "paragraph",
+                        "volume": "270,652",
+                        "impressions": "78,680",
+                        "projectId": "73f3574bb16dbef8ef5158c81f2030fe"
+                    },
+                    {
+                        "id": "IjFF5vg51e7hH_f_9BvPz",
+                        "content": "Mollit laboris ex ad. Id eiusmod ut duis voluptate officia cillum labore exercitation quis enim anim sit aliqua. Deserunt eiusmod voluptate veniam veniam anim ipsum cupidatat adipisicing quis ea excepteur aliqua aute.",
+                        "type": "paragraph",
+                        "volume": "3,753,011",
+                        "impressions": "98,715",
+                        "projectId": "73f3574bb16dbef8ef5158c81f2030fe"
+                    },
+                    {
+                        "id": "LsLE1p_vb7M-OPBhevjMu",
+                        "content": "Exercitation magna aliquip incididunt in culpa qui in magna exercitation esse elit nisi sunt fugiat quis. Aute exercitation aliquip labore esse ex minim sint laborum officia deserunt. Enim consequat velit quis officia. Occaecat nostrud proident voluptate enim ipsum occaecat culpa. Dolore amet quis labore ad dolor amet cillum id pariatur nisi ad.",
+                        "type": "paragraph",
+                        "volume": "6,445,117",
+                        "impressions": "36,440",
+                        "projectId": "73f3574bb16dbef8ef5158c81f2030fe"
+                    },
+                    {
+                        "id": "kLznX_bOY5dvVcYqm1LDA",
+                        "content": "Officia enim ad ex do nisi sit. Enim ex mollit in voluptate reprehenderit quis eu ad sunt. Et sit incididunt ipsum reprehenderit ut minim consequat occaecat. Voluptate cillum ipsum laborum sit ullamco.",
+                        "type": "paragraph",
+                        "volume": "2,692,403",
+                        "impressions": "85,975",
+                        "projectId": "73f3574bb16dbef8ef5158c81f2030fe"
+                    },
+                    {
+                        "id": "aVT04crzo5P5d_5ZeK4qa",
+                        "content": "Elit est fugiat mollit incididunt exercitation id ullamco esse. Est eu velit do ut. Laborum excepteur est magna velit quis ad consectetur nulla officia.",
+                        "type": "paragraph",
+                        "volume": "2,335,873",
+                        "impressions": "48,290",
+                        "projectId": "73f3574bb16dbef8ef5158c81f2030fe"
+                    },
+                    {
+                        "id": "N2pwrp3pyBGl96lAKA2f6",
+                        "content": "Laboris proident magna sint cupidatat do ullamco nulla sit irure. Amet anim ullamco occaecat est proident ut. Ullamco ullamco voluptate officia sit esse dolor cupidatat non proident labore exercitation ex adipisicing aute. Dolor id ad voluptate velit nulla cillum amet irure ullamco non consequat esse amet in.",
+                        "type": "paragraph",
+                        "volume": "387,873",
+                        "impressions": "63,593",
+                        "projectId": "73f3574bb16dbef8ef5158c81f2030fe"
+                    },
+                    {
+                        "id": "A9VhVDKLyDpTqTt2gEPIb",
+                        "content": "Laboris aute id excepteur fugiat dolore laboris mollit. Nulla laborum est ex non et proident duis.",
+                        "type": "paragraph",
+                        "volume": "7,527,312",
+                        "impressions": "28,819",
+                        "projectId": "73f3574bb16dbef8ef5158c81f2030fe"
+                    },
+                    {
+                        "id": "ZH8H-TgbZGboGxartGKHN",
+                        "content": "Duis est voluptate nisi occaecat ex magna ad sunt ullamco elit. Enim enim occaecat laboris et tempor anim sit tempor voluptate dolor voluptate.",
+                        "type": "paragraph",
+                        "volume": "7,712,582",
+                        "impressions": "90,548",
+                        "projectId": "73f3574bb16dbef8ef5158c81f2030fe"
+                    },
+                    {
+                        "id": "ThnPy_5hSUn7Hhng_fg2y",
+                        "content": "Reprehenderit fugiat sint excepteur occaecat id duis cillum. Commodo cillum aliqua nisi do laborum ex cillum voluptate dolore sit deserunt. Ea culpa do cillum fugiat reprehenderit aliqua ex ex ipsum esse cillum. Sit esse voluptate dolore occaecat velit exercitation ea irure. Eiusmod sunt nostrud deserunt laboris incididunt id.",
+                        "type": "paragraph",
+                        "volume": "2,560,673",
+                        "impressions": "66,331",
+                        "projectId": "73f3574bb16dbef8ef5158c81f2030fe"
+                    },
+                    {
+                        "id": "CI7K0w_sxPmLX7ViDihMh",
+                        "content": "Nulla aliquip pariatur proident ex magna. Nostrud velit sunt nisi fugiat ipsum laborum eu.",
+                        "type": "paragraph",
+                        "volume": "6,984,732",
+                        "impressions": "74,500",
+                        "projectId": "73f3574bb16dbef8ef5158c81f2030fe"
+                    },
+                    {
+                        "id": "ZlX7d3ajxc630wSuiJved",
+                        "content": "Consectetur anim veniam aliqua eiusmod anim ea do eiusmod enim sint aliqua incididunt. Sunt dolore velit fugiat irure velit mollit nostrud aute nulla. Ex quis exercitation eiusmod amet do reprehenderit et anim irure ea aliqua ex. Consectetur ipsum enim deserunt dolore fugiat.",
+                        "type": "paragraph",
+                        "volume": "4,691,841",
+                        "impressions": "10,259",
+                        "projectId": "73f3574bb16dbef8ef5158c81f2030fe"
+                    },
+                    {
+                        "id": "L627n9IoyF9UCUMfk-BkN",
+                        "content": "Sit deserunt nisi deserunt. Non voluptate irure minim velit deserunt qui fugiat dolor consequat. Amet ea dolor sit pariatur quis reprehenderit cillum duis nostrud in. Excepteur do aliquip Lorem eiusmod esse officia labore consectetur est. Elit enim in Lorem eiusmod ea do occaecat nulla consequat id non dolor exercitation.",
+                        "type": "paragraph",
+                        "volume": "3,128,741",
+                        "impressions": "99,505",
+                        "projectId": "73f3574bb16dbef8ef5158c81f2030fe"
+                    },
+                    {
+                        "id": "pos4vHj1e1qqnKCeeobjs",
+                        "content": "Ullamco commodo proident culpa aliqua. Nostrud velit enim incididunt Lorem id ullamco consequat irure Lorem exercitation sit incididunt pariatur.",
+                        "type": "paragraph",
+                        "volume": "270,652",
+                        "impressions": "78,680",
+                        "projectId": "73f3574bb16dbef8ef5158c81f2030fe"
+                    },
+                    {
+                        "id": "QvnZS6TWllLN93adiRNq0",
+                        "content": "Ullamco eiusmod eu nostrud fugiat officia enim officia eiusmod est mollit qui reprehenderit. Lorem ex qui magna non magna do dolor. Do adipisicing aliqua sunt anim anim adipisicing sint consequat cupidatat consectetur qui ad Lorem. Proident aliquip deserunt enim est amet. Nulla amet qui ipsum consequat nostrud.",
+                        "type": "paragraph",
+                        "volume": "9,565,247",
+                        "impressions": "26,151",
+                        "projectId": "73f3574bb16dbef8ef5158c81f2030fe"
+                    },
+                    {
+                        "id": "ZWsj5idzIjK54ymsVjPQt",
+                        "content": "Ut aliqua sunt amet cillum do cupidatat do ea irure. Elit minim sit laboris. Eiusmod voluptate pariatur nostrud elit tempor.",
+                        "type": "paragraph",
+                        "volume": "3,247,377",
+                        "impressions": "92,541",
+                        "projectId": "73f3574bb16dbef8ef5158c81f2030fe"
+                    },
+                    {
+                        "id": "IEmX43RD5A86EYiYH0VlR",
+                        "content": "Excepteur nulla nostrud non cillum exercitation amet ipsum. Lorem voluptate irure cupidatat qui tempor sit.",
+                        "type": "paragraph",
+                        "volume": "7,766,115",
+                        "impressions": "24,805",
+                        "projectId": "73f3574bb16dbef8ef5158c81f2030fe"
+                    },
+                    {
+                        "id": "c9l1JGecZZSTZjw3lLvGB",
+                        "content": "Dolore ex tempor incididunt esse culpa sit adipisicing qui commodo sint non duis. Est cupidatat nulla magna eu ea eu fugiat nostrud excepteur sit aute exercitation elit. Laborum magna pariatur anim irure eiusmod exercitation consectetur nulla incididunt incididunt commodo deserunt occaecat ullamco.",
+                        "type": "paragraph",
+                        "volume": "9,726,167",
+                        "impressions": "68,939",
+                        "projectId": "73f3574bb16dbef8ef5158c81f2030fe"
+                    },
+                    {
+                        "id": "ezqyBLrm7Orc8KSk_YOsa",
+                        "content": "Consectetur do anim proident aliqua duis sunt deserunt ad deserunt ad ea in id non. Exercitation ut pariatur laborum aute nostrud laborum.",
+                        "type": "paragraph",
+                        "volume": "6,373,553",
+                        "impressions": "85,628",
+                        "projectId": "73f3574bb16dbef8ef5158c81f2030fe"
+                    },
+                    {
+                        "id": "3XmJjBIZyVMm-LpmaYLXm",
+                        "content": "Sint eiusmod in minim dolor in. Deserunt nulla et cillum eu. Sunt exercitation aliqua excepteur quis. Ullamco do est nostrud laborum laborum voluptate excepteur id exercitation cupidatat dolore minim aliqua. Reprehenderit cupidatat consequat cupidatat est quis.",
+                        "type": "paragraph",
+                        "volume": "3,472,796",
+                        "impressions": "11,486",
+                        "projectId": "73f3574bb16dbef8ef5158c81f2030fe"
+                    },
+                    {
+                        "id": "fc7nmsoBnj9R3p9aFWyBI",
+                        "content": "Non mollit qui eiusmod incididunt dolore sit culpa quis consectetur laborum do sint sit. Ullamco in exercitation ex exercitation id irure reprehenderit ut consectetur. Irure in esse irure velit est.",
+                        "type": "paragraph",
+                        "volume": "6,029,175",
+                        "impressions": "48,828",
+                        "projectId": "73f3574bb16dbef8ef5158c81f2030fe"
+                    },
+                    {
+                        "id": "Cr6AA9zUyBppaE2nD0VrE",
+                        "content": "Tempor fugiat deserunt dolore quis. Consectetur qui occaecat cillum reprehenderit ex proident velit cupidatat dolor quis nostrud deserunt ullamco.",
+                        "type": "paragraph",
+                        "volume": "683,520",
+                        "impressions": "42,942",
+                        "projectId": "73f3574bb16dbef8ef5158c81f2030fe"
+                    },
+                    {
+                        "id": "MpCiE5q_RA9Y10E-70lr6",
+                        "content": "Voluptate aliquip non veniam in nostrud elit et ullamco. Quis nostrud ad commodo sit commodo officia consectetur adipisicing ut culpa deserunt dolor. Dolor occaecat aliqua consectetur in adipisicing eiusmod excepteur ex pariatur irure exercitation magna proident occaecat commodo. Eiusmod aliquip sit velit dolore id nostrud fugiat exercitation nisi veniam occaecat occaecat.",
+                        "type": "paragraph",
+                        "volume": "5,167,373",
+                        "impressions": "91,583",
+                        "projectId": "73f3574bb16dbef8ef5158c81f2030fe"
+                    },
+                    {
+                        "id": "DnlAqkKgRFA6_ybYGaG8-",
+                        "content": "Nostrud anim veniam eiusmod. Et officia dolor id sunt nisi occaecat ad pariatur. Eiusmod commodo cillum pariatur dolore veniam enim irure. Laborum commodo laborum officia duis aliqua veniam commodo in est qui nisi ex quis velit.",
+                        "type": "paragraph",
+                        "volume": "3,080,146",
+                        "impressions": "4,308",
+                        "projectId": "73f3574bb16dbef8ef5158c81f2030fe"
+                    },
+                    {
+                        "id": "4U-Yhj325gHotVzQJr3Uw",
+                        "content": "Id excepteur amet adipisicing et id laborum do magna adipisicing non est voluptate. Ullamco cupidatat sit do amet ipsum cupidatat duis voluptate.",
+                        "type": "paragraph",
+                        "volume": "3,382,410",
+                        "impressions": "1,786",
+                        "projectId": "73f3574bb16dbef8ef5158c81f2030fe"
+                    },
+                    {
+                        "id": "z9KUcwNUaFGXz3x_G9U99",
+                        "content": "Anim nulla anim exercitation ipsum ullamco qui deserunt laborum aute minim aliquip magna officia. Sint proident amet Lorem sint id esse minim proident reprehenderit nostrud incididunt exercitation ut anim. Anim sint Lorem ex do enim esse nisi duis cillum do qui Lorem. Deserunt qui cupidatat mollit velit Lorem labore. Dolor tempor magna anim mollit Lorem est cillum commodo.",
+                        "type": "paragraph",
+                        "volume": "1,173,917",
+                        "impressions": "73,729",
+                        "projectId": "73f3574bb16dbef8ef5158c81f2030fe"
+                    },
+                    {
+                        "id": "VNzHW56jC2qZ5ZfZyvaHa",
+                        "content": "Incididunt ut tempor laboris dolor adipisicing ut magna occaecat sint duis. In reprehenderit voluptate enim pariatur fugiat est duis adipisicing do amet.",
+                        "type": "paragraph",
+                        "volume": "6,577,467",
+                        "impressions": "3,026",
+                        "projectId": "73f3574bb16dbef8ef5158c81f2030fe"
+                    },
+                    {
+                        "id": "V9pq518qX0qeRfyBykOET",
+                        "content": "Sit commodo officia laboris sint. Id adipisicing et excepteur veniam cillum laboris. Labore consectetur ullamco duis exercitation ullamco do reprehenderit minim anim nisi proident sunt id laborum proident. Nostrud elit elit reprehenderit ad cupidatat aliqua nulla mollit sunt non proident cillum nisi.",
+                        "type": "paragraph",
+                        "volume": "6,748,438",
+                        "impressions": "16,304",
+                        "projectId": "73f3574bb16dbef8ef5158c81f2030fe"
+                    },
+                    {
+                        "id": "AgkoQAHAQjSgg-LhSvN5A",
+                        "content": "Aute id magna excepteur. Et magna enim consequat occaecat dolor irure amet duis Lorem non nulla tempor dolor. Duis ex tempor id occaecat consectetur elit anim ea. Consectetur tempor qui irure elit aute tempor aliqua do tempor amet velit labore enim nostrud sit.",
+                        "type": "paragraph",
+                        "volume": "6,971,929",
+                        "impressions": "31,590",
+                        "projectId": "73f3574bb16dbef8ef5158c81f2030fe"
+                    },
+                    {
+                        "id": "okakD8Bbtnfr69gLb0Jhy",
+                        "content": "Nostrud non adipisicing cillum adipisicing nostrud cillum minim et sint laboris do duis nisi aute. Lorem dolore adipisicing dolore adipisicing enim aute sunt officia anim voluptate aliquip veniam eu. Voluptate est ex eu laboris consectetur culpa esse.",
+                        "type": "paragraph",
+                        "volume": "3,949,285",
+                        "impressions": "58,755",
+                        "projectId": "73f3574bb16dbef8ef5158c81f2030fe"
+                    },
+                    {
+                        "id": "aVT04crzo5P5d_5ZeK4qa",
+                        "content": "Elit est fugiat mollit incididunt exercitation id ullamco esse. Est eu velit do ut. Laborum excepteur est magna velit quis ad consectetur nulla officia.",
+                        "type": "paragraph",
+                        "volume": "2,335,873",
+                        "impressions": "48,290",
+                        "projectId": "73f3574bb16dbef8ef5158c81f2030fe"
+                    },
+                    {
+                        "id": "CI7K0w_sxPmLX7ViDihMh",
+                        "content": "Nulla aliquip pariatur proident ex magna. Nostrud velit sunt nisi fugiat ipsum laborum eu.",
+                        "type": "paragraph",
+                        "volume": "6,984,732",
+                        "impressions": "74,500",
+                        "projectId": "73f3574bb16dbef8ef5158c81f2030fe"
+                    },
+                    {
+                        "id": "tn6We4hz_lStfJZpaYWPS",
+                        "content": "Velit dolor aliqua adipisicing laboris ut ex duis incididunt ea excepteur occaecat labore. Excepteur reprehenderit enim ex laborum nulla. Ullamco sit incididunt esse ut cupidatat anim fugiat elit dolore. Do ea eiusmod irure nulla culpa eu reprehenderit cillum.",
+                        "type": "paragraph",
+                        "volume": "3,023,312",
+                        "impressions": "29,689",
+                        "projectId": "73f3574bb16dbef8ef5158c81f2030fe"
+                    },
+                    {
+                        "id": "btty38wvLFgKZsRY_B5RV",
+                        "content": "Minim velit incididunt excepteur enim labore sint sit labore ea aliquip. Cupidatat qui culpa laborum magna fugiat sit. Tempor et amet exercitation ad velit ut incididunt tempor occaecat mollit aliquip. Non eu aliqua nulla reprehenderit eu officia sint deserunt sint ad fugiat tempor dolor.",
+                        "type": "paragraph",
+                        "volume": "2,900,743",
+                        "impressions": "7,408",
+                        "projectId": "73f3574bb16dbef8ef5158c81f2030fe"
+                    },
+                    {
+                        "id": "AgkoQAHAQjSgg-LhSvN5A",
+                        "content": "Aute id magna excepteur. Et magna enim consequat occaecat dolor irure amet duis Lorem non nulla tempor dolor. Duis ex tempor id occaecat consectetur elit anim ea. Consectetur tempor qui irure elit aute tempor aliqua do tempor amet velit labore enim nostrud sit.",
+                        "type": "paragraph",
+                        "volume": "6,971,929",
+                        "impressions": "31,590",
+                        "projectId": "73f3574bb16dbef8ef5158c81f2030fe"
+                    },
+                    {
+                        "id": "-r8RiwQ34VBpYwJnPEwTa",
+                        "content": "Ut dolore tempor laborum consequat consequat aliqua magna in. Aliquip veniam commodo non adipisicing commodo eu occaecat consequat. Velit consequat occaecat consequat ullamco incididunt voluptate eu eu dolor et. Esse do incididunt magna cupidatat do cillum cillum cupidatat officia dolor consequat aute.",
+                        "type": "paragraph",
+                        "volume": "7,478,399",
+                        "impressions": "18,437",
+                        "projectId": "73f3574bb16dbef8ef5158c81f2030fe"
+                    },
+                    {
+                        "id": "bqrWZYmZ4S9SprWns2YLh",
+                        "content": "Officia culpa sit occaecat elit cillum eu amet ad non. Fugiat eu id ut anim duis enim fugiat. Esse culpa laborum pariatur amet reprehenderit mollit consectetur esse incididunt velit aliqua nisi non ad. Fugiat id Lorem adipisicing deserunt officia enim non exercitation mollit eu tempor aliqua reprehenderit officia excepteur. Enim eiusmod et aute tempor eu et consequat nisi minim id.",
+                        "type": "paragraph",
+                        "volume": "5,729,662",
+                        "impressions": "96,761",
+                        "projectId": "73f3574bb16dbef8ef5158c81f2030fe"
+                    },
+                    {
+                        "id": "OXeBT-5RchDOU3C9g-89J",
+                        "content": "Exercitation eiusmod deserunt aliqua ea est dolor anim laborum cupidatat deserunt tempor. Aute qui proident voluptate aute ea. Duis magna enim officia exercitation amet mollit qui ipsum qui ut deserunt velit proident pariatur nostrud. Esse aliquip fugiat exercitation laboris proident ut labore excepteur cillum elit velit.",
+                        "type": "paragraph",
+                        "volume": "2,354,635",
+                        "impressions": "32,371",
+                        "projectId": "73f3574bb16dbef8ef5158c81f2030fe"
+                    },
+                    {
+                        "id": "rS4Ehfifoz1jukmCqYJ4A",
+                        "content": "Quis amet ullamco eu aliquip ea do commodo. Et labore ipsum non aute id ad mollit irure aliquip.",
+                        "type": "paragraph",
+                        "volume": "4,303,453",
+                        "impressions": "83,192",
+                        "projectId": "73f3574bb16dbef8ef5158c81f2030fe"
+                    },
+                    {
+                        "id": "z9KUcwNUaFGXz3x_G9U99",
+                        "content": "Anim nulla anim exercitation ipsum ullamco qui deserunt laborum aute minim aliquip magna officia. Sint proident amet Lorem sint id esse minim proident reprehenderit nostrud incididunt exercitation ut anim. Anim sint Lorem ex do enim esse nisi duis cillum do qui Lorem. Deserunt qui cupidatat mollit velit Lorem labore. Dolor tempor magna anim mollit Lorem est cillum commodo.",
+                        "type": "paragraph",
+                        "volume": "1,173,917",
+                        "impressions": "73,729",
+                        "projectId": "73f3574bb16dbef8ef5158c81f2030fe"
+                    },
+                    {
+                        "id": "ZH8H-TgbZGboGxartGKHN",
+                        "content": "Duis est voluptate nisi occaecat ex magna ad sunt ullamco elit. Enim enim occaecat laboris et tempor anim sit tempor voluptate dolor voluptate.",
+                        "type": "paragraph",
+                        "volume": "7,712,582",
+                        "impressions": "90,548",
+                        "projectId": "73f3574bb16dbef8ef5158c81f2030fe"
+                    },
+                    {
+                        "id": "L627n9IoyF9UCUMfk-BkN",
+                        "content": "Sit deserunt nisi deserunt. Non voluptate irure minim velit deserunt qui fugiat dolor consequat. Amet ea dolor sit pariatur quis reprehenderit cillum duis nostrud in. Excepteur do aliquip Lorem eiusmod esse officia labore consectetur est. Elit enim in Lorem eiusmod ea do occaecat nulla consequat id non dolor exercitation.",
+                        "type": "paragraph",
+                        "volume": "3,128,741",
+                        "impressions": "99,505",
+                        "projectId": "73f3574bb16dbef8ef5158c81f2030fe"
+                    },
+                    {
+                        "id": "sLEjSHrnQFbjprGPLtDT_",
+                        "content": "Eu Lorem adipisicing veniam velit excepteur consequat consectetur aliqua tempor aute eu eu. Mollit deserunt ad adipisicing nulla veniam aute consectetur est.",
+                        "type": "paragraph",
+                        "volume": "5,808,106",
+                        "impressions": "54,551",
+                        "projectId": "73f3574bb16dbef8ef5158c81f2030fe"
+                    },
+                    {
+                        "id": "GnHu71GxKaqRa67lueKu5",
+                        "content": "Veniam velit in sunt consequat tempor pariatur fugiat. Nulla cillum ad velit ex et non.",
+                        "type": "paragraph",
+                        "volume": "3,192,272",
+                        "impressions": "7,090",
+                        "projectId": "73f3574bb16dbef8ef5158c81f2030fe"
+                    },
+                    {
+                        "id": "3XmJjBIZyVMm-LpmaYLXm",
+                        "content": "Sint eiusmod in minim dolor in. Deserunt nulla et cillum eu. Sunt exercitation aliqua excepteur quis. Ullamco do est nostrud laborum laborum voluptate excepteur id exercitation cupidatat dolore minim aliqua. Reprehenderit cupidatat consequat cupidatat est quis.",
+                        "type": "paragraph",
+                        "volume": "3,472,796",
+                        "impressions": "11,486",
+                        "projectId": "73f3574bb16dbef8ef5158c81f2030fe"
+                    },
+                    {
+                        "id": "WWQmB-EbYfS5b9kD9N6xY",
+                        "content": "Consequat aliquip ex magna elit laborum ad ipsum occaecat nisi laboris est id aute. Aute sunt laborum sunt veniam consequat irure fugiat nulla qui proident eu Lorem quis eu. Esse eiusmod sunt Lorem labore consequat aliqua nisi. Ut irure amet minim fugiat dolor est incididunt consectetur eu esse ullamco laborum nisi esse sint.",
+                        "type": "paragraph",
+                        "volume": "3,643,037",
+                        "impressions": "46,821",
+                        "projectId": "73f3574bb16dbef8ef5158c81f2030fe"
+                    },
+                    {
+                        "id": "PEy6zYNleC_Xrq_Z-79J8",
+                        "content": "Aute eu veniam occaecat adipisicing dolor Lorem cillum non sit. Aute ut laborum dolore nulla est laboris nulla officia ea ut id nisi mollit eiusmod.",
+                        "type": "paragraph",
+                        "volume": "205,992",
+                        "impressions": "79,818",
+                        "projectId": "73f3574bb16dbef8ef5158c81f2030fe"
+                    },
+                    {
+                        "id": "43D9zy3UESZece_kMfVaM",
+                        "content": "Officia non pariatur commodo officia enim sit qui non in consequat mollit qui et labore. Ut tempor irure ex id sit dolor ex. Laboris id mollit esse labore enim.",
+                        "type": "paragraph",
+                        "volume": "6,629,555",
+                        "impressions": "41,531",
+                        "projectId": "73f3574bb16dbef8ef5158c81f2030fe"
+                    },
+                    {
+                        "id": "tx0GCBS60aFusjLb4cFyW",
+                        "content": "Pariatur mollit in eiusmod. Aliquip do voluptate sit anim exercitation culpa exercitation deserunt voluptate ut deserunt quis id. Dolore nostrud non minim ea sint Lorem voluptate consequat laborum labore fugiat laboris. Anim consequat cupidatat pariatur ad adipisicing qui proident. Voluptate amet aliquip veniam anim aliquip non.",
+                        "type": "paragraph",
+                        "volume": "7,644,299",
+                        "impressions": "20,638",
+                        "projectId": "73f3574bb16dbef8ef5158c81f2030fe"
+                    },
+                    {
+                        "id": "A5Zd8FnxSxfCjBYc9Wk0C",
+                        "content": "Enim quis est commodo. Irure enim nostrud cupidatat anim quis.",
+                        "type": "paragraph",
+                        "volume": "4,464,552",
+                        "impressions": "86,014",
+                        "projectId": "73f3574bb16dbef8ef5158c81f2030fe"
+                    },
+                    {
+                        "id": "rY1T9uvK26_OR6fAKkMGY",
+                        "content": "Fugiat irure irure sint quis amet ullamco. Non minim labore officia labore. Ipsum proident commodo sunt laborum nisi amet et. Incididunt velit velit mollit aliqua irure culpa elit velit mollit deserunt officia mollit dolor laboris nulla.",
+                        "type": "paragraph",
+                        "volume": "2,787,575",
+                        "impressions": "62,130",
+                        "projectId": "73f3574bb16dbef8ef5158c81f2030fe"
+                    },
+                    {
+                        "id": "Rrd3n8PvnRuzIttxaZGaR",
+                        "content": "Sunt nisi sunt sunt cillum velit non. Ut nostrud dolor excepteur ipsum ad culpa et non proident et ex. Magna dolore tempor consequat tempor nostrud do consectetur nostrud cupidatat dolore pariatur qui quis esse deserunt.",
+                        "type": "paragraph",
+                        "volume": "1,917,600",
+                        "impressions": "11,722",
+                        "projectId": "73f3574bb16dbef8ef5158c81f2030fe"
+                    },
+                    {
+                        "id": "7KPucLzYPzV6ZDw8wHvml",
+                        "content": "Eiusmod nostrud reprehenderit cillum reprehenderit elit. Nisi veniam minim dolore. Eiusmod sunt id aliquip laboris consectetur et. Proident labore exercitation proident nulla anim aliqua sit mollit commodo officia. Eiusmod et amet velit minim qui esse amet ex ipsum eu.",
+                        "type": "paragraph",
+                        "volume": "9,700,268",
+                        "impressions": "60,774",
+                        "projectId": "73f3574bb16dbef8ef5158c81f2030fe"
+                    },
+                    {
+                        "id": "QzpX28Eccn0YdQSsvZy5-",
+                        "content": "Aliquip velit incididunt ex adipisicing commodo voluptate ad. Lorem mollit dolor reprehenderit consectetur aute excepteur elit dolor fugiat amet.",
+                        "type": "paragraph",
+                        "volume": "4,530,919",
+                        "impressions": "53,273",
+                        "projectId": "73f3574bb16dbef8ef5158c81f2030fe"
+                    },
+                    {
+                        "id": "Rz4Qp5xy07PLycqcHg1-Z",
+                        "content": "Ad aliqua elit incididunt qui eu laboris sint. Do occaecat occaecat qui aliqua velit cillum consequat nisi officia in exercitation laborum cupidatat. Elit sunt veniam laborum veniam aliqua deserunt culpa sint proident commodo laboris cupidatat duis eiusmod ex. Duis excepteur Lorem occaecat aliqua tempor exercitation. Aliquip tempor consectetur nulla fugiat nulla non officia fugiat commodo aute non mollit magna ipsum ipsum.",
+                        "type": "paragraph",
+                        "volume": "8,799,372",
+                        "impressions": "77,431",
+                        "projectId": "73f3574bb16dbef8ef5158c81f2030fe"
+                    },
+                    {
+                        "id": "-GBebT_JJ48K62Tc_ipaE",
+                        "content": "Labore ex cillum non cillum Lorem id eu ipsum aute commodo minim laborum. Enim incididunt dolore culpa consequat est elit laboris. Aliqua minim sint nisi officia aute mollit id est. Et quis laborum ea eiusmod non aute consectetur. Commodo non enim proident excepteur duis excepteur ea cillum est id ex proident nisi.",
+                        "type": "paragraph",
+                        "volume": "5,762,781",
+                        "impressions": "19,464",
+                        "projectId": "73f3574bb16dbef8ef5158c81f2030fe"
+                    },
+                    {
+                        "id": "4U-Yhj325gHotVzQJr3Uw",
+                        "content": "Id excepteur amet adipisicing et id laborum do magna adipisicing non est voluptate. Ullamco cupidatat sit do amet ipsum cupidatat duis voluptate.",
+                        "type": "paragraph",
+                        "volume": "3,382,410",
+                        "impressions": "1,786",
+                        "projectId": "73f3574bb16dbef8ef5158c81f2030fe"
+                    },
+                    {
+                        "id": "kCAMFH3_7z-2ogpEmKqan",
+                        "content": "Aliquip culpa proident voluptate. Culpa fugiat aliquip ex velit quis dolore pariatur aliquip pariatur voluptate velit elit labore in culpa.",
+                        "type": "paragraph",
+                        "volume": "5,284,465",
+                        "impressions": "30,522",
+                        "projectId": "73f3574bb16dbef8ef5158c81f2030fe"
+                    },
+                    {
+                        "id": "Rrd3n8PvnRuzIttxaZGaR",
+                        "content": "Sunt nisi sunt sunt cillum velit non. Ut nostrud dolor excepteur ipsum ad culpa et non proident et ex. Magna dolore tempor consequat tempor nostrud do consectetur nostrud cupidatat dolore pariatur qui quis esse deserunt.",
+                        "type": "paragraph",
+                        "volume": "1,917,600",
+                        "impressions": "11,722",
+                        "projectId": "73f3574bb16dbef8ef5158c81f2030fe"
+                    },
+                    {
+                        "id": "A9VhVDKLyDpTqTt2gEPIb",
+                        "content": "Laboris aute id excepteur fugiat dolore laboris mollit. Nulla laborum est ex non et proident duis.",
+                        "type": "paragraph",
+                        "volume": "7,527,312",
+                        "impressions": "28,819",
+                        "projectId": "73f3574bb16dbef8ef5158c81f2030fe"
+                    },
+                    {
+                        "id": "QzpX28Eccn0YdQSsvZy5-",
+                        "content": "Aliquip velit incididunt ex adipisicing commodo voluptate ad. Lorem mollit dolor reprehenderit consectetur aute excepteur elit dolor fugiat amet.",
+                        "type": "paragraph",
+                        "volume": "4,530,919",
+                        "impressions": "53,273",
+                        "projectId": "73f3574bb16dbef8ef5158c81f2030fe"
+                    },
+                    {
+                        "id": "bqrWZYmZ4S9SprWns2YLh",
+                        "content": "Officia culpa sit occaecat elit cillum eu amet ad non. Fugiat eu id ut anim duis enim fugiat. Esse culpa laborum pariatur amet reprehenderit mollit consectetur esse incididunt velit aliqua nisi non ad. Fugiat id Lorem adipisicing deserunt officia enim non exercitation mollit eu tempor aliqua reprehenderit officia excepteur. Enim eiusmod et aute tempor eu et consequat nisi minim id.",
+                        "type": "paragraph",
+                        "volume": "5,729,662",
+                        "impressions": "96,761",
+                        "projectId": "73f3574bb16dbef8ef5158c81f2030fe"
+                    },
+                    {
+                        "id": "uDuHRvowi2YRhCEyhGsRd",
+                        "content": "Aute exercitation aliqua non dolore velit magna pariatur in. Ad ipsum dolore occaecat proident. Magna mollit incididunt cillum nulla enim aliquip laborum proident est aliqua tempor reprehenderit qui exercitation. Exercitation quis amet aute elit cupidatat officia occaecat. Voluptate deserunt dolore culpa eu elit excepteur non nulla.",
+                        "type": "paragraph",
+                        "volume": "8,529,165",
+                        "impressions": "86,033",
+                        "projectId": "73f3574bb16dbef8ef5158c81f2030fe"
+                    },
+                    {
+                        "id": "9xKel9grDqdlgg2JSXQCa",
+                        "content": "Aute ex eiusmod enim nulla sit sunt nulla aliquip reprehenderit dolor adipisicing qui ullamco. Reprehenderit ullamco tempor amet enim ullamco magna amet nostrud commodo duis ad ad nulla. Laborum enim non culpa consectetur quis occaecat in culpa duis.",
+                        "type": "paragraph",
+                        "volume": "5,248,723",
+                        "impressions": "79,134",
+                        "projectId": "73f3574bb16dbef8ef5158c81f2030fe"
+                    },
+                    {
+                        "id": "OcCdV9CpcD6RFlNbMRAkX",
+                        "content": "Id laborum et laboris aliqua esse labore consectetur velit sit. Mollit in nostrud minim sit esse. Fugiat commodo Lorem laboris consectetur enim officia reprehenderit enim.",
+                        "type": "paragraph",
+                        "volume": "3,962,964",
+                        "impressions": "11,538",
+                        "projectId": "73f3574bb16dbef8ef5158c81f2030fe"
+                    },
+                    {
+                        "id": "L627n9IoyF9UCUMfk-BkN",
+                        "content": "Sit deserunt nisi deserunt. Non voluptate irure minim velit deserunt qui fugiat dolor consequat. Amet ea dolor sit pariatur quis reprehenderit cillum duis nostrud in. Excepteur do aliquip Lorem eiusmod esse officia labore consectetur est. Elit enim in Lorem eiusmod ea do occaecat nulla consequat id non dolor exercitation.",
+                        "type": "paragraph",
+                        "volume": "3,128,741",
+                        "impressions": "99,505",
+                        "projectId": "73f3574bb16dbef8ef5158c81f2030fe"
+                    },
+                    {
+                        "id": "ZWsj5idzIjK54ymsVjPQt",
+                        "content": "Ut aliqua sunt amet cillum do cupidatat do ea irure. Elit minim sit laboris. Eiusmod voluptate pariatur nostrud elit tempor.",
+                        "type": "paragraph",
+                        "volume": "3,247,377",
+                        "impressions": "92,541",
+                        "projectId": "73f3574bb16dbef8ef5158c81f2030fe"
+                    },
+                    {
+                        "id": "85Kpx4UdSu58hQkgpUtzl",
+                        "content": "Anim elit ad pariatur nisi sunt sunt proident amet dolor. Pariatur velit Lorem id officia proident exercitation laboris et. Veniam laboris mollit sint exercitation minim qui et irure reprehenderit ad adipisicing duis nulla amet nisi.",
+                        "type": "paragraph",
+                        "volume": "8,398,090",
+                        "impressions": "16,924",
+                        "projectId": "73f3574bb16dbef8ef5158c81f2030fe"
+                    },
+                    {
+                        "id": "ZWsj5idzIjK54ymsVjPQt",
+                        "content": "Ut aliqua sunt amet cillum do cupidatat do ea irure. Elit minim sit laboris. Eiusmod voluptate pariatur nostrud elit tempor.",
+                        "type": "paragraph",
+                        "volume": "3,247,377",
+                        "impressions": "92,541",
+                        "projectId": "73f3574bb16dbef8ef5158c81f2030fe"
+                    },
+                    {
+                        "id": "mGOOn6CXubd-GEM4jWMpA",
+                        "content": "Enim ad velit do proident enim sunt ex eiusmod pariatur eiusmod. Duis nostrud proident sit id adipisicing dolore pariatur laborum elit fugiat commodo laboris. Voluptate est sint ipsum laboris in anim Lorem minim adipisicing.",
+                        "type": "paragraph",
+                        "volume": "1,795,208",
+                        "impressions": "77,089",
+                        "projectId": "73f3574bb16dbef8ef5158c81f2030fe"
+                    },
+                    {
+                        "id": "AtNQc9DHBIiW1eXoK7Tq1",
+                        "content": "Minim consequat ipsum reprehenderit exercitation sunt proident. Voluptate labore labore officia non qui ipsum sunt cillum elit incididunt et officia. Elit non mollit in fugiat id ad exercitation officia. Lorem ullamco eu do elit.",
+                        "type": "paragraph",
+                        "volume": "2,814,633",
+                        "impressions": "91,899",
+                        "projectId": "73f3574bb16dbef8ef5158c81f2030fe"
+                    },
+                    {
+                        "id": "2FPJ7xdy4efd22vNgtSFb",
+                        "content": "Sint labore enim consectetur est non anim non incididunt aute amet. Enim minim dolore ipsum deserunt. Dolor aute nisi fugiat fugiat sit ea ut adipisicing proident reprehenderit.",
+                        "type": "paragraph",
+                        "volume": "4,731,778",
+                        "impressions": "10,259",
+                        "projectId": "73f3574bb16dbef8ef5158c81f2030fe"
+                    },
+                    {
+                        "id": "Eq9lYLDyA0oRvCFJmP4rM",
+                        "content": "Enim exercitation in laborum culpa eiusmod nostrud. Anim nostrud ex aute ut tempor excepteur mollit occaecat dolore irure do. Quis cillum commodo quis anim commodo officia.",
+                        "type": "paragraph",
+                        "volume": "9,392,796",
+                        "impressions": "96,611",
+                        "projectId": "73f3574bb16dbef8ef5158c81f2030fe"
+                    },
+                    {
+                        "id": "CI7K0w_sxPmLX7ViDihMh",
+                        "content": "Nulla aliquip pariatur proident ex magna. Nostrud velit sunt nisi fugiat ipsum laborum eu.",
+                        "type": "paragraph",
+                        "volume": "6,984,732",
+                        "impressions": "74,500",
+                        "projectId": "73f3574bb16dbef8ef5158c81f2030fe"
+                    },
+                    {
+                        "id": "MpCiE5q_RA9Y10E-70lr6",
+                        "content": "Voluptate aliquip non veniam in nostrud elit et ullamco. Quis nostrud ad commodo sit commodo officia consectetur adipisicing ut culpa deserunt dolor. Dolor occaecat aliqua consectetur in adipisicing eiusmod excepteur ex pariatur irure exercitation magna proident occaecat commodo. Eiusmod aliquip sit velit dolore id nostrud fugiat exercitation nisi veniam occaecat occaecat.",
+                        "type": "paragraph",
+                        "volume": "5,167,373",
+                        "impressions": "91,583",
+                        "projectId": "73f3574bb16dbef8ef5158c81f2030fe"
+                    },
+                    {
+                        "id": "LE6erbymZXt12lyPnimEx",
+                        "content": "Elit magna adipisicing ipsum. Consectetur ad do quis deserunt. Do nisi consequat aute consectetur duis veniam ea tempor quis mollit ullamco non. Cillum adipisicing est eu qui. Exercitation sint labore anim cillum.",
+                        "type": "paragraph",
+                        "volume": "9,205,917",
+                        "impressions": "9,700",
+                        "projectId": "73f3574bb16dbef8ef5158c81f2030fe"
+                    },
+                    {
+                        "id": "XxSO3yW4E9jc6Kt_Ps3Kh",
+                        "content": "Lorem sint magna consectetur nostrud dolor sint. Ad magna ea voluptate tempor anim. Do nisi cupidatat anim tempor.",
+                        "type": "paragraph",
+                        "volume": "4,160,259",
+                        "impressions": "21,337",
+                        "projectId": "73f3574bb16dbef8ef5158c81f2030fe"
+                    },
+                    {
+                        "id": "FGmR4WJWDLQOCuPT5REEg",
+                        "content": "Commodo Lorem magna aliqua enim minim occaecat et consequat. Occaecat consequat reprehenderit ullamco nulla ad.",
+                        "type": "paragraph",
+                        "volume": "3,958,466",
+                        "impressions": "82,209",
+                        "projectId": "73f3574bb16dbef8ef5158c81f2030fe"
+                    },
+                    {
+                        "id": "btty38wvLFgKZsRY_B5RV",
+                        "content": "Minim velit incididunt excepteur enim labore sint sit labore ea aliquip. Cupidatat qui culpa laborum magna fugiat sit. Tempor et amet exercitation ad velit ut incididunt tempor occaecat mollit aliquip. Non eu aliqua nulla reprehenderit eu officia sint deserunt sint ad fugiat tempor dolor.",
+                        "type": "paragraph",
+                        "volume": "2,900,743",
+                        "impressions": "7,408",
+                        "projectId": "73f3574bb16dbef8ef5158c81f2030fe"
+                    },
+                    {
+                        "id": "JFmBXBVWHXdSZcaDDYiR1",
+                        "content": "Excepteur occaecat id voluptate. Sit aliqua qui aute magna cillum et quis mollit laborum mollit. Amet magna in quis. Nulla veniam irure labore. Cillum duis sit enim veniam.",
+                        "type": "paragraph",
+                        "volume": "3,510,680",
+                        "impressions": "7,363",
+                        "projectId": "73f3574bb16dbef8ef5158c81f2030fe"
+                    },
+                    {
+                        "id": "c9l1JGecZZSTZjw3lLvGB",
+                        "content": "Dolore ex tempor incididunt esse culpa sit adipisicing qui commodo sint non duis. Est cupidatat nulla magna eu ea eu fugiat nostrud excepteur sit aute exercitation elit. Laborum magna pariatur anim irure eiusmod exercitation consectetur nulla incididunt incididunt commodo deserunt occaecat ullamco.",
+                        "type": "paragraph",
+                        "volume": "9,726,167",
+                        "impressions": "68,939",
+                        "projectId": "73f3574bb16dbef8ef5158c81f2030fe"
+                    },
+                    {
+                        "id": "EGLhTgIE3y207_k0sSAw5",
+                        "content": "Tempor ipsum aute dolor esse veniam. Voluptate aliqua ipsum dolore voluptate ea aliqua do tempor enim fugiat. Aute incididunt pariatur ut ad irure ex ullamco.",
+                        "type": "paragraph",
+                        "volume": "6,893,739",
+                        "impressions": "95,027",
+                        "projectId": "73f3574bb16dbef8ef5158c81f2030fe"
+                    },
+                    {
+                        "id": "3XmJjBIZyVMm-LpmaYLXm",
+                        "content": "Sint eiusmod in minim dolor in. Deserunt nulla et cillum eu. Sunt exercitation aliqua excepteur quis. Ullamco do est nostrud laborum laborum voluptate excepteur id exercitation cupidatat dolore minim aliqua. Reprehenderit cupidatat consequat cupidatat est quis.",
+                        "type": "paragraph",
+                        "volume": "3,472,796",
+                        "impressions": "11,486",
+                        "projectId": "73f3574bb16dbef8ef5158c81f2030fe"
+                    },
+                    {
+                        "id": "jLe3wguIAODdbT4at1MDm",
+                        "content": "Labore occaecat sunt qui. Enim veniam laborum excepteur enim culpa labore cupidatat tempor non anim adipisicing. Laboris proident adipisicing ullamco officia qui consequat Lorem est ea nostrud. Ea veniam minim excepteur officia ea quis duis occaecat laborum amet consequat dolor deserunt esse nulla.",
+                        "type": "paragraph",
+                        "volume": "4,230,356",
+                        "impressions": "10,156",
+                        "projectId": "73f3574bb16dbef8ef5158c81f2030fe"
+                    },
+                    {
+                        "id": "3eiFa59pQ2ZmETmGy1N3Z",
+                        "content": "Voluptate tempor excepteur nulla dolore in culpa tempor elit culpa fugiat ut magna magna aliqua. Ex deserunt laborum eu dolor ad tempor aliquip ut. Cupidatat laborum mollit laborum pariatur consectetur cupidatat id excepteur qui ex qui. Laboris id officia nostrud amet veniam amet velit officia fugiat dolor sit aliquip.",
+                        "type": "paragraph",
+                        "volume": "2,488,253",
+                        "impressions": "59,052",
+                        "projectId": "73f3574bb16dbef8ef5158c81f2030fe"
+                    },
+                    {
+                        "id": "gWXgj3Xmk3wdudbtV35ek",
+                        "content": "Ea eu reprehenderit commodo sint qui sunt commodo reprehenderit est amet. Laboris in sunt laborum. Cillum ad id veniam cupidatat ad sit. Est aute minim adipisicing labore sunt fugiat occaecat amet minim tempor excepteur Lorem excepteur et. Ullamco duis nisi occaecat aliquip.",
+                        "type": "paragraph",
+                        "volume": "5,914,950",
+                        "impressions": "63,608",
+                        "projectId": "73f3574bb16dbef8ef5158c81f2030fe"
+                    },
+                    {
+                        "id": "CGv2lrhkHZw4YIqGza9zz",
+                        "content": "Velit magna quis ut enim proident commodo dolor amet sunt incididunt adipisicing. Sit duis Lorem laboris sit duis anim incididunt pariatur ea labore velit consectetur occaecat do. Ipsum consequat minim commodo ea aute amet tempor. Deserunt irure tempor laborum laborum nostrud occaecat nisi exercitation est qui velit.",
+                        "type": "paragraph",
+                        "volume": "8,639,414",
+                        "impressions": "17,300",
+                        "projectId": "73f3574bb16dbef8ef5158c81f2030fe"
+                    },
+                    {
+                        "id": "eBwnvBEOGqCzvqnEAuVmg",
+                        "content": "Quis irure ut nisi culpa labore quis in labore do. Ea cupidatat adipisicing culpa deserunt tempor minim veniam ex officia elit culpa adipisicing. Aliquip excepteur ipsum duis sint nulla pariatur culpa tempor veniam do quis.",
+                        "type": "paragraph",
+                        "volume": "7,172,389",
+                        "impressions": "47,209",
+                        "projectId": "73f3574bb16dbef8ef5158c81f2030fe"
+                    },
+                    {
+                        "id": "ThnPy_5hSUn7Hhng_fg2y",
+                        "content": "Reprehenderit fugiat sint excepteur occaecat id duis cillum. Commodo cillum aliqua nisi do laborum ex cillum voluptate dolore sit deserunt. Ea culpa do cillum fugiat reprehenderit aliqua ex ex ipsum esse cillum. Sit esse voluptate dolore occaecat velit exercitation ea irure. Eiusmod sunt nostrud deserunt laboris incididunt id.",
+                        "type": "paragraph",
+                        "volume": "2,560,673",
+                        "impressions": "66,331",
+                        "projectId": "73f3574bb16dbef8ef5158c81f2030fe"
+                    },
+                    {
+                        "id": "FGmR4WJWDLQOCuPT5REEg",
+                        "content": "Commodo Lorem magna aliqua enim minim occaecat et consequat. Occaecat consequat reprehenderit ullamco nulla ad.",
+                        "type": "paragraph",
+                        "volume": "3,958,466",
+                        "impressions": "82,209",
+                        "projectId": "73f3574bb16dbef8ef5158c81f2030fe"
+                    },
+                    {
+                        "id": "btty38wvLFgKZsRY_B5RV",
+                        "content": "Minim velit incididunt excepteur enim labore sint sit labore ea aliquip. Cupidatat qui culpa laborum magna fugiat sit. Tempor et amet exercitation ad velit ut incididunt tempor occaecat mollit aliquip. Non eu aliqua nulla reprehenderit eu officia sint deserunt sint ad fugiat tempor dolor.",
+                        "type": "paragraph",
+                        "volume": "2,900,743",
+                        "impressions": "7,408",
+                        "projectId": "73f3574bb16dbef8ef5158c81f2030fe"
+                    },
+                    {
+                        "id": "Rz4Qp5xy07PLycqcHg1-Z",
+                        "content": "Ad aliqua elit incididunt qui eu laboris sint. Do occaecat occaecat qui aliqua velit cillum consequat nisi officia in exercitation laborum cupidatat. Elit sunt veniam laborum veniam aliqua deserunt culpa sint proident commodo laboris cupidatat duis eiusmod ex. Duis excepteur Lorem occaecat aliqua tempor exercitation. Aliquip tempor consectetur nulla fugiat nulla non officia fugiat commodo aute non mollit magna ipsum ipsum.",
+                        "type": "paragraph",
+                        "volume": "8,799,372",
+                        "impressions": "77,431",
+                        "projectId": "73f3574bb16dbef8ef5158c81f2030fe"
+                    },
+                    {
+                        "id": "OcCdV9CpcD6RFlNbMRAkX",
+                        "content": "Id laborum et laboris aliqua esse labore consectetur velit sit. Mollit in nostrud minim sit esse. Fugiat commodo Lorem laboris consectetur enim officia reprehenderit enim.",
+                        "type": "paragraph",
+                        "volume": "3,962,964",
+                        "impressions": "11,538",
+                        "projectId": "73f3574bb16dbef8ef5158c81f2030fe"
+                    },
+                    {
+                        "id": "tn6We4hz_lStfJZpaYWPS",
+                        "content": "Velit dolor aliqua adipisicing laboris ut ex duis incididunt ea excepteur occaecat labore. Excepteur reprehenderit enim ex laborum nulla. Ullamco sit incididunt esse ut cupidatat anim fugiat elit dolore. Do ea eiusmod irure nulla culpa eu reprehenderit cillum.",
+                        "type": "paragraph",
+                        "volume": "3,023,312",
+                        "impressions": "29,689",
+                        "projectId": "73f3574bb16dbef8ef5158c81f2030fe"
+                    },
+                    {
+                        "id": "XNeH8wvzZBxv4BZuZRzqG",
+                        "content": "Elit esse exercitation laboris qui aliqua aute ut culpa in Lorem nulla. Officia laboris Lorem cillum. Laborum laboris aliquip exercitation duis eu aliqua culpa minim consectetur minim aute. Esse occaecat cupidatat minim do amet tempor incididunt proident est sint consequat.",
+                        "type": "paragraph",
+                        "volume": "9,916,093",
+                        "impressions": "57,456",
+                        "projectId": "73f3574bb16dbef8ef5158c81f2030fe"
+                    },
+                    {
+                        "id": "tn6We4hz_lStfJZpaYWPS",
+                        "content": "Velit dolor aliqua adipisicing laboris ut ex duis incididunt ea excepteur occaecat labore. Excepteur reprehenderit enim ex laborum nulla. Ullamco sit incididunt esse ut cupidatat anim fugiat elit dolore. Do ea eiusmod irure nulla culpa eu reprehenderit cillum.",
+                        "type": "paragraph",
+                        "volume": "3,023,312",
+                        "impressions": "29,689",
+                        "projectId": "73f3574bb16dbef8ef5158c81f2030fe"
+                    },
+                    {
+                        "id": "QvnZS6TWllLN93adiRNq0",
+                        "content": "Ullamco eiusmod eu nostrud fugiat officia enim officia eiusmod est mollit qui reprehenderit. Lorem ex qui magna non magna do dolor. Do adipisicing aliqua sunt anim anim adipisicing sint consequat cupidatat consectetur qui ad Lorem. Proident aliquip deserunt enim est amet. Nulla amet qui ipsum consequat nostrud.",
+                        "type": "paragraph",
+                        "volume": "9,565,247",
+                        "impressions": "26,151",
+                        "projectId": "73f3574bb16dbef8ef5158c81f2030fe"
+                    },
+                    {
+                        "id": "AtNQc9DHBIiW1eXoK7Tq1",
+                        "content": "Minim consequat ipsum reprehenderit exercitation sunt proident. Voluptate labore labore officia non qui ipsum sunt cillum elit incididunt et officia. Elit non mollit in fugiat id ad exercitation officia. Lorem ullamco eu do elit.",
+                        "type": "paragraph",
+                        "volume": "2,814,633",
+                        "impressions": "91,899",
+                        "projectId": "73f3574bb16dbef8ef5158c81f2030fe"
+                    },
+                    {
+                        "id": "ZlX7d3ajxc630wSuiJved",
+                        "content": "Consectetur anim veniam aliqua eiusmod anim ea do eiusmod enim sint aliqua incididunt. Sunt dolore velit fugiat irure velit mollit nostrud aute nulla. Ex quis exercitation eiusmod amet do reprehenderit et anim irure ea aliqua ex. Consectetur ipsum enim deserunt dolore fugiat.",
+                        "type": "paragraph",
+                        "volume": "4,691,841",
+                        "impressions": "10,259",
+                        "projectId": "73f3574bb16dbef8ef5158c81f2030fe"
+                    },
+                    {
+                        "id": "OcCdV9CpcD6RFlNbMRAkX",
+                        "content": "Id laborum et laboris aliqua esse labore consectetur velit sit. Mollit in nostrud minim sit esse. Fugiat commodo Lorem laboris consectetur enim officia reprehenderit enim.",
+                        "type": "paragraph",
+                        "volume": "3,962,964",
+                        "impressions": "11,538",
+                        "projectId": "73f3574bb16dbef8ef5158c81f2030fe"
+                    },
+                    {
+                        "id": "QzpX28Eccn0YdQSsvZy5-",
+                        "content": "Aliquip velit incididunt ex adipisicing commodo voluptate ad. Lorem mollit dolor reprehenderit consectetur aute excepteur elit dolor fugiat amet.",
+                        "type": "paragraph",
+                        "volume": "4,530,919",
+                        "impressions": "53,273",
+                        "projectId": "73f3574bb16dbef8ef5158c81f2030fe"
+                    },
+                    {
+                        "id": "okakD8Bbtnfr69gLb0Jhy",
+                        "content": "Nostrud non adipisicing cillum adipisicing nostrud cillum minim et sint laboris do duis nisi aute. Lorem dolore adipisicing dolore adipisicing enim aute sunt officia anim voluptate aliquip veniam eu. Voluptate est ex eu laboris consectetur culpa esse.",
+                        "type": "paragraph",
+                        "volume": "3,949,285",
+                        "impressions": "58,755",
+                        "projectId": "73f3574bb16dbef8ef5158c81f2030fe"
+                    },
+                    {
+                        "id": "Gki404WH3cw8apSTJNBFq",
+                        "content": "Excepteur adipisicing do amet enim mollit magna ullamco ea. Elit magna enim non culpa aliqua elit consequat ipsum culpa excepteur sunt irure proident.",
+                        "type": "paragraph",
+                        "volume": "558,553",
+                        "impressions": "69,521",
+                        "projectId": "73f3574bb16dbef8ef5158c81f2030fe"
+                    },
+                    {
+                        "id": "YIkHyqBv2yO-1CvvKfPtz",
+                        "content": "Id commodo amet id. Non minim fugiat exercitation fugiat aute duis tempor pariatur anim in labore ullamco sint. Qui ullamco aute incididunt culpa sit exercitation et laborum enim. Tempor proident anim magna excepteur consectetur. Amet mollit officia irure non qui qui eu duis consectetur voluptate Lorem nulla quis cillum.",
+                        "type": "paragraph",
+                        "volume": "5,115,914",
+                        "impressions": "86,696",
+                        "projectId": "73f3574bb16dbef8ef5158c81f2030fe"
+                    },
+                    {
+                        "id": "QvnZS6TWllLN93adiRNq0",
+                        "content": "Ullamco eiusmod eu nostrud fugiat officia enim officia eiusmod est mollit qui reprehenderit. Lorem ex qui magna non magna do dolor. Do adipisicing aliqua sunt anim anim adipisicing sint consequat cupidatat consectetur qui ad Lorem. Proident aliquip deserunt enim est amet. Nulla amet qui ipsum consequat nostrud.",
+                        "type": "paragraph",
+                        "volume": "9,565,247",
+                        "impressions": "26,151",
+                        "projectId": "73f3574bb16dbef8ef5158c81f2030fe"
+                    },
+                    {
+                        "id": "NEYltNOTourhOp-yEZubi",
+                        "content": "Aute pariatur nisi adipisicing sunt in voluptate id officia enim mollit sunt reprehenderit sit dolor dolore. Ea sunt duis aute enim nostrud aute tempor est. Adipisicing tempor ea anim occaecat esse. Velit nostrud enim fugiat tempor anim dolor nostrud commodo excepteur consectetur deserunt laboris laboris non laborum.",
+                        "type": "paragraph",
+                        "volume": "8,690,099",
+                        "impressions": "49,264",
+                        "projectId": "73f3574bb16dbef8ef5158c81f2030fe"
+                    },
+                    {
+                        "id": "fc7nmsoBnj9R3p9aFWyBI",
+                        "content": "Non mollit qui eiusmod incididunt dolore sit culpa quis consectetur laborum do sint sit. Ullamco in exercitation ex exercitation id irure reprehenderit ut consectetur. Irure in esse irure velit est.",
+                        "type": "paragraph",
+                        "volume": "6,029,175",
+                        "impressions": "48,828",
+                        "projectId": "73f3574bb16dbef8ef5158c81f2030fe"
+                    }
+                ]
+            },
+            "history": {}
+        },
+        "organization": {
+            "id": "b9943be00aacfb40005fe0a6c03e06a7",
+            "name": "Abhinay's Org"
+        },
+        "team": {
+            "id": "b33134ef00979cf3ab97015338525a39",
+            "name": "Content Writers"
+        },
+        "product": {
+            "id": "42f00d4a3c1dee697027978c04939b68",
+            "name": "Content Studio"
+        },
+        "creator": {
+            "user_id": "c5d06a58b535e30cbfedb840fb93b081",
+            "name": "Abhinay Thakur"
+        }
+    },
+    {
+        "id": "c944321f6b2a226e66271f8b8dc69136",
+        "name": "Untitled Project_fc0",
+        "state": null,
+        "status": "Inbox",
+        "url": "project/c944321f6b2a226e66271f8b8dc69136",
+        "createdDate": "2022-09-12T20:24:59.934Z",
+        "lastEditdate": "2022-09-12T20:24:59.934Z",
+        "isDeleted": false,
+        "document": {
+            "usecase": {
+                "id": "SO-aWAI_k9WxQ3UmuNXVN",
+                "name": "Blog Title",
+                "description": "Compelling Titles inline with the search volume.",
+                "icon": "blog_title.svg",
+                "active": true,
+                "type": "blog",
+                "route": "/usecase/blog/blog-title/",
+                "configuration": [
+                    {
+                        "name": "topic",
+                        "type": "input",
+                        "label": "Topic",
+                        "placeholder": "e.g. Meditation",
+                        "value": "hoalalal",
+                        "default_value": null,
+                        "optional": false,
+                        "charsLimit": 90
+                    }
+                ],
+                "url": "/usecase/blog/undefined/"
+            },
+            "results": {
+                "actions": {
+                    "favorite": true,
+                    "copy": true,
+                    "delete": true,
+                    "flag": true
+                },
+                "list": [
+                    {
+                        "id": "IjFF5vg51e7hH_f_9BvPz",
+                        "content": "Mollit laboris ex ad. Id eiusmod ut duis voluptate officia cillum labore exercitation quis enim anim sit aliqua. Deserunt eiusmod voluptate veniam veniam anim ipsum cupidatat adipisicing quis ea excepteur aliqua aute.",
+                        "type": "paragraph",
+                        "volume": "3,753,011",
+                        "impressions": "98,715",
+                        "projectId": "c944321f6b2a226e66271f8b8dc69136"
+                    },
+                    {
+                        "id": "rY1T9uvK26_OR6fAKkMGY",
+                        "content": "Fugiat irure irure sint quis amet ullamco. Non minim labore officia labore. Ipsum proident commodo sunt laborum nisi amet et. Incididunt velit velit mollit aliqua irure culpa elit velit mollit deserunt officia mollit dolor laboris nulla.",
+                        "type": "paragraph",
+                        "volume": "2,787,575",
+                        "impressions": "62,130",
+                        "projectId": "c944321f6b2a226e66271f8b8dc69136"
+                    },
+                    {
+                        "id": "FGmR4WJWDLQOCuPT5REEg",
+                        "content": "Commodo Lorem magna aliqua enim minim occaecat et consequat. Occaecat consequat reprehenderit ullamco nulla ad.",
+                        "type": "paragraph",
+                        "volume": "3,958,466",
+                        "impressions": "82,209",
+                        "projectId": "c944321f6b2a226e66271f8b8dc69136"
+                    },
+                    {
+                        "id": "aVT04crzo5P5d_5ZeK4qa",
+                        "content": "Elit est fugiat mollit incididunt exercitation id ullamco esse. Est eu velit do ut. Laborum excepteur est magna velit quis ad consectetur nulla officia.",
+                        "type": "paragraph",
+                        "volume": "2,335,873",
+                        "impressions": "48,290",
+                        "projectId": "c944321f6b2a226e66271f8b8dc69136"
+                    },
+                    {
+                        "id": "OhQSnU9hmA50QNIE22Awd",
+                        "content": "Incididunt et labore excepteur duis qui. Cillum culpa consequat esse incididunt duis.",
+                        "type": "paragraph",
+                        "volume": "2,675,298",
+                        "impressions": "62,178",
+                        "projectId": "c944321f6b2a226e66271f8b8dc69136"
+                    },
+                    {
+                        "id": "HMJ4J_yyhH05NHjQFKB4A",
+                        "content": "Dolor deserunt excepteur proident quis tempor magna. Voluptate tempor ex cillum irure esse occaecat magna tempor fugiat fugiat.",
+                        "type": "paragraph",
+                        "volume": "35,689",
+                        "impressions": "20,370",
+                        "projectId": "c944321f6b2a226e66271f8b8dc69136"
+                    },
+                    {
+                        "id": "-r8RiwQ34VBpYwJnPEwTa",
+                        "content": "Ut dolore tempor laborum consequat consequat aliqua magna in. Aliquip veniam commodo non adipisicing commodo eu occaecat consequat. Velit consequat occaecat consequat ullamco incididunt voluptate eu eu dolor et. Esse do incididunt magna cupidatat do cillum cillum cupidatat officia dolor consequat aute.",
+                        "type": "paragraph",
+                        "volume": "7,478,399",
+                        "impressions": "18,437",
+                        "projectId": "c944321f6b2a226e66271f8b8dc69136"
+                    },
+                    {
+                        "id": "aVT04crzo5P5d_5ZeK4qa",
+                        "content": "Elit est fugiat mollit incididunt exercitation id ullamco esse. Est eu velit do ut. Laborum excepteur est magna velit quis ad consectetur nulla officia.",
+                        "type": "paragraph",
+                        "volume": "2,335,873",
+                        "impressions": "48,290",
+                        "projectId": "c944321f6b2a226e66271f8b8dc69136"
+                    },
+                    {
+                        "id": "QzpX28Eccn0YdQSsvZy5-",
+                        "content": "Aliquip velit incididunt ex adipisicing commodo voluptate ad. Lorem mollit dolor reprehenderit consectetur aute excepteur elit dolor fugiat amet.",
+                        "type": "paragraph",
+                        "volume": "4,530,919",
+                        "impressions": "53,273",
+                        "projectId": "c944321f6b2a226e66271f8b8dc69136"
+                    },
+                    {
+                        "id": "V9pq518qX0qeRfyBykOET",
+                        "content": "Sit commodo officia laboris sint. Id adipisicing et excepteur veniam cillum laboris. Labore consectetur ullamco duis exercitation ullamco do reprehenderit minim anim nisi proident sunt id laborum proident. Nostrud elit elit reprehenderit ad cupidatat aliqua nulla mollit sunt non proident cillum nisi.",
+                        "type": "paragraph",
+                        "volume": "6,748,438",
+                        "impressions": "16,304",
+                        "projectId": "c944321f6b2a226e66271f8b8dc69136"
+                    },
+                    {
+                        "id": "tx0GCBS60aFusjLb4cFyW",
+                        "content": "Pariatur mollit in eiusmod. Aliquip do voluptate sit anim exercitation culpa exercitation deserunt voluptate ut deserunt quis id. Dolore nostrud non minim ea sint Lorem voluptate consequat laborum labore fugiat laboris. Anim consequat cupidatat pariatur ad adipisicing qui proident. Voluptate amet aliquip veniam anim aliquip non.",
+                        "type": "paragraph",
+                        "volume": "7,644,299",
+                        "impressions": "20,638",
+                        "projectId": "c944321f6b2a226e66271f8b8dc69136"
+                    },
+                    {
+                        "id": "MpCiE5q_RA9Y10E-70lr6",
+                        "content": "Voluptate aliquip non veniam in nostrud elit et ullamco. Quis nostrud ad commodo sit commodo officia consectetur adipisicing ut culpa deserunt dolor. Dolor occaecat aliqua consectetur in adipisicing eiusmod excepteur ex pariatur irure exercitation magna proident occaecat commodo. Eiusmod aliquip sit velit dolore id nostrud fugiat exercitation nisi veniam occaecat occaecat.",
+                        "type": "paragraph",
+                        "volume": "5,167,373",
+                        "impressions": "91,583",
+                        "projectId": "c944321f6b2a226e66271f8b8dc69136"
+                    },
+                    {
+                        "id": "7KPucLzYPzV6ZDw8wHvml",
+                        "content": "Eiusmod nostrud reprehenderit cillum reprehenderit elit. Nisi veniam minim dolore. Eiusmod sunt id aliquip laboris consectetur et. Proident labore exercitation proident nulla anim aliqua sit mollit commodo officia. Eiusmod et amet velit minim qui esse amet ex ipsum eu.",
+                        "type": "paragraph",
+                        "volume": "9,700,268",
+                        "impressions": "60,774",
+                        "projectId": "c944321f6b2a226e66271f8b8dc69136"
+                    },
+                    {
+                        "id": "QvnZS6TWllLN93adiRNq0",
+                        "content": "Ullamco eiusmod eu nostrud fugiat officia enim officia eiusmod est mollit qui reprehenderit. Lorem ex qui magna non magna do dolor. Do adipisicing aliqua sunt anim anim adipisicing sint consequat cupidatat consectetur qui ad Lorem. Proident aliquip deserunt enim est amet. Nulla amet qui ipsum consequat nostrud.",
+                        "type": "paragraph",
+                        "volume": "9,565,247",
+                        "impressions": "26,151",
+                        "projectId": "c944321f6b2a226e66271f8b8dc69136"
+                    },
+                    {
+                        "id": "pos4vHj1e1qqnKCeeobjs",
+                        "content": "Ullamco commodo proident culpa aliqua. Nostrud velit enim incididunt Lorem id ullamco consequat irure Lorem exercitation sit incididunt pariatur.",
+                        "type": "paragraph",
+                        "volume": "270,652",
+                        "impressions": "78,680",
+                        "projectId": "c944321f6b2a226e66271f8b8dc69136"
+                    },
+                    {
+                        "id": "pos4vHj1e1qqnKCeeobjs",
+                        "content": "Ullamco commodo proident culpa aliqua. Nostrud velit enim incididunt Lorem id ullamco consequat irure Lorem exercitation sit incididunt pariatur.",
+                        "type": "paragraph",
+                        "volume": "270,652",
+                        "impressions": "78,680",
+                        "projectId": "c944321f6b2a226e66271f8b8dc69136"
+                    },
+                    {
+                        "id": "c9l1JGecZZSTZjw3lLvGB",
+                        "content": "Dolore ex tempor incididunt esse culpa sit adipisicing qui commodo sint non duis. Est cupidatat nulla magna eu ea eu fugiat nostrud excepteur sit aute exercitation elit. Laborum magna pariatur anim irure eiusmod exercitation consectetur nulla incididunt incididunt commodo deserunt occaecat ullamco.",
+                        "type": "paragraph",
+                        "volume": "9,726,167",
+                        "impressions": "68,939",
+                        "projectId": "c944321f6b2a226e66271f8b8dc69136"
+                    },
+                    {
+                        "id": "1GN2WeOQe0Pt0hyTILQBD",
+                        "content": "Officia eu adipisicing aute duis id nisi nulla dolore dolore cillum anim et amet. Eiusmod quis aute qui sit Lorem incididunt nostrud reprehenderit consequat pariatur.",
+                        "type": "paragraph",
+                        "volume": "6,631,927",
+                        "impressions": "83,814",
+                        "projectId": "c944321f6b2a226e66271f8b8dc69136"
+                    },
+                    {
+                        "id": "L627n9IoyF9UCUMfk-BkN",
+                        "content": "Sit deserunt nisi deserunt. Non voluptate irure minim velit deserunt qui fugiat dolor consequat. Amet ea dolor sit pariatur quis reprehenderit cillum duis nostrud in. Excepteur do aliquip Lorem eiusmod esse officia labore consectetur est. Elit enim in Lorem eiusmod ea do occaecat nulla consequat id non dolor exercitation.",
+                        "type": "paragraph",
+                        "volume": "3,128,741",
+                        "impressions": "99,505",
+                        "projectId": "c944321f6b2a226e66271f8b8dc69136"
+                    }
+                ]
+            },
+            "history": {}
+        },
+        "organization": {
+            "id": "47f0baf49d62d98b7d7f7b38d4c2e9e5",
+            "name": "Abhinay's Org"
+        },
+        "team": {
+            "id": "04997bf0317eb5c0baf33a12b49b3579",
+            "name": "Content Writers"
+        },
+        "product": {
+            "id": "58240ae7acda91d2d9231a47c6b732b6",
+            "name": "Content Studio"
+        },
+        "creator": {
+            "user_id": "0edd14bb0abd2a260b3fdedc956b47be",
+            "name": "Abhinay Thakur"
+        }
+    },
+    {
+        "id": "b574ff10f8459a73581672aa354a224c",
+        "name": "Untitled Project_1aa",
+        "state": null,
+        "status": "Inbox",
+        "url": "project/b574ff10f8459a73581672aa354a224c",
+        "createdDate": "2022-09-12T20:39:33.529Z",
+        "lastEditdate": "2022-09-12T20:39:33.529Z",
+        "isDeleted": false,
+        "document": {
+            "usecase": {
+                "id": "SO-aWAI_k9WxQ3UmuNXVN",
+                "name": "Blog Title",
+                "description": "Compelling Titles inline with the search volume.",
+                "icon": "blog_title.svg",
+                "active": true,
+                "type": "blog",
+                "route": "/usecase/blog/blog-title/",
+                "configuration": [
+                    {
+                        "name": "topic",
+                        "type": "input",
+                        "label": "Topic",
+                        "placeholder": "e.g. Meditation",
+                        "value": null,
+                        "default_value": null,
+                        "optional": false,
+                        "charsLimit": 90
+                    }
+                ],
+                "url": "/usecase/blog/undefined/"
+            },
+            "results": {
+                "actions": {
+                    "favorite": true,
+                    "copy": true,
+                    "delete": true,
+                    "flag": true
+                },
+                "list": [
+                    {
+                        "id": "mGOOn6CXubd-GEM4jWMpA",
+                        "content": "Enim ad velit do proident enim sunt ex eiusmod pariatur eiusmod. Duis nostrud proident sit id adipisicing dolore pariatur laborum elit fugiat commodo laboris. Voluptate est sint ipsum laboris in anim Lorem minim adipisicing.",
+                        "type": "paragraph",
+                        "volume": "1,795,208",
+                        "impressions": "77,089",
+                        "projectId": "b574ff10f8459a73581672aa354a224c"
+                    },
+                    {
+                        "id": "ZWsj5idzIjK54ymsVjPQt",
+                        "content": "Ut aliqua sunt amet cillum do cupidatat do ea irure. Elit minim sit laboris. Eiusmod voluptate pariatur nostrud elit tempor.",
+                        "type": "paragraph",
+                        "volume": "3,247,377",
+                        "impressions": "92,541",
+                        "projectId": "b574ff10f8459a73581672aa354a224c"
+                    },
+                    {
+                        "id": "WWQmB-EbYfS5b9kD9N6xY",
+                        "content": "Consequat aliquip ex magna elit laborum ad ipsum occaecat nisi laboris est id aute. Aute sunt laborum sunt veniam consequat irure fugiat nulla qui proident eu Lorem quis eu. Esse eiusmod sunt Lorem labore consequat aliqua nisi. Ut irure amet minim fugiat dolor est incididunt consectetur eu esse ullamco laborum nisi esse sint.",
+                        "type": "paragraph",
+                        "volume": "3,643,037",
+                        "impressions": "46,821",
+                        "projectId": "b574ff10f8459a73581672aa354a224c"
+                    },
+                    {
+                        "id": "0jeKSxlpNrTq6eAiKV1XM",
+                        "content": "Do in proident excepteur dolore ad reprehenderit irure incididunt non. Aute occaecat officia et consequat consectetur.",
+                        "type": "paragraph",
+                        "volume": "7,925,415",
+                        "impressions": "22,373",
+                        "projectId": "b574ff10f8459a73581672aa354a224c"
+                    },
+                    {
+                        "id": "N2pwrp3pyBGl96lAKA2f6",
+                        "content": "Laboris proident magna sint cupidatat do ullamco nulla sit irure. Amet anim ullamco occaecat est proident ut. Ullamco ullamco voluptate officia sit esse dolor cupidatat non proident labore exercitation ex adipisicing aute. Dolor id ad voluptate velit nulla cillum amet irure ullamco non consequat esse amet in.",
+                        "type": "paragraph",
+                        "volume": "387,873",
+                        "impressions": "63,593",
+                        "projectId": "b574ff10f8459a73581672aa354a224c"
+                    },
+                    {
+                        "id": "IDcE3kBc5PWHekDnHVqJR",
+                        "content": "Enim ipsum consequat exercitation ea Lorem. Sit veniam mollit enim amet excepteur Lorem dolor consequat pariatur ullamco esse ad pariatur aliquip. Sint aliquip ullamco mollit ea ut. Elit fugiat voluptate deserunt sint irure.",
+                        "type": "paragraph",
+                        "volume": "4,169,541",
+                        "impressions": "59,208",
+                        "projectId": "b574ff10f8459a73581672aa354a224c"
+                    },
+                    {
+                        "id": "rS4Ehfifoz1jukmCqYJ4A",
+                        "content": "Quis amet ullamco eu aliquip ea do commodo. Et labore ipsum non aute id ad mollit irure aliquip.",
+                        "type": "paragraph",
+                        "volume": "4,303,453",
+                        "impressions": "83,192",
+                        "projectId": "b574ff10f8459a73581672aa354a224c"
+                    },
+                    {
+                        "id": "CGv2lrhkHZw4YIqGza9zz",
+                        "content": "Velit magna quis ut enim proident commodo dolor amet sunt incididunt adipisicing. Sit duis Lorem laboris sit duis anim incididunt pariatur ea labore velit consectetur occaecat do. Ipsum consequat minim commodo ea aute amet tempor. Deserunt irure tempor laborum laborum nostrud occaecat nisi exercitation est qui velit.",
+                        "type": "paragraph",
+                        "volume": "8,639,414",
+                        "impressions": "17,300",
+                        "projectId": "b574ff10f8459a73581672aa354a224c"
+                    },
+                    {
+                        "id": "LWVIl2ebd1V6KSwDd43Oh",
+                        "content": "Esse ut consectetur commodo excepteur. Fugiat adipisicing cillum adipisicing non excepteur in. Deserunt pariatur minim Lorem ea duis labore dolor et. Ea consequat Lorem amet culpa aliqua est est et ullamco. Officia velit ea irure commodo qui eu elit est magna duis nulla excepteur.",
+                        "type": "paragraph",
+                        "volume": "2,072,877",
+                        "impressions": "71,689",
+                        "projectId": "b574ff10f8459a73581672aa354a224c"
+                    },
+                    {
+                        "id": "eBwnvBEOGqCzvqnEAuVmg",
+                        "content": "Quis irure ut nisi culpa labore quis in labore do. Ea cupidatat adipisicing culpa deserunt tempor minim veniam ex officia elit culpa adipisicing. Aliquip excepteur ipsum duis sint nulla pariatur culpa tempor veniam do quis.",
+                        "type": "paragraph",
+                        "volume": "7,172,389",
+                        "impressions": "47,209",
+                        "projectId": "b574ff10f8459a73581672aa354a224c"
+                    },
+                    {
+                        "id": "A9VhVDKLyDpTqTt2gEPIb",
+                        "content": "Laboris aute id excepteur fugiat dolore laboris mollit. Nulla laborum est ex non et proident duis.",
+                        "type": "paragraph",
+                        "volume": "7,527,312",
+                        "impressions": "28,819",
+                        "projectId": "b574ff10f8459a73581672aa354a224c"
+                    },
+                    {
+                        "id": "9xKel9grDqdlgg2JSXQCa",
+                        "content": "Aute ex eiusmod enim nulla sit sunt nulla aliquip reprehenderit dolor adipisicing qui ullamco. Reprehenderit ullamco tempor amet enim ullamco magna amet nostrud commodo duis ad ad nulla. Laborum enim non culpa consectetur quis occaecat in culpa duis.",
+                        "type": "paragraph",
+                        "volume": "5,248,723",
+                        "impressions": "79,134",
+                        "projectId": "b574ff10f8459a73581672aa354a224c"
+                    },
+                    {
+                        "id": "tx0GCBS60aFusjLb4cFyW",
+                        "content": "Pariatur mollit in eiusmod. Aliquip do voluptate sit anim exercitation culpa exercitation deserunt voluptate ut deserunt quis id. Dolore nostrud non minim ea sint Lorem voluptate consequat laborum labore fugiat laboris. Anim consequat cupidatat pariatur ad adipisicing qui proident. Voluptate amet aliquip veniam anim aliquip non.",
+                        "type": "paragraph",
+                        "volume": "7,644,299",
+                        "impressions": "20,638",
+                        "projectId": "b574ff10f8459a73581672aa354a224c"
+                    },
+                    {
+                        "id": "43D9zy3UESZece_kMfVaM",
+                        "content": "Officia non pariatur commodo officia enim sit qui non in consequat mollit qui et labore. Ut tempor irure ex id sit dolor ex. Laboris id mollit esse labore enim.",
+                        "type": "paragraph",
+                        "volume": "6,629,555",
+                        "impressions": "41,531",
+                        "projectId": "b574ff10f8459a73581672aa354a224c"
+                    },
+                    {
+                        "id": "pos4vHj1e1qqnKCeeobjs",
+                        "content": "Ullamco commodo proident culpa aliqua. Nostrud velit enim incididunt Lorem id ullamco consequat irure Lorem exercitation sit incididunt pariatur.",
+                        "type": "paragraph",
+                        "volume": "270,652",
+                        "impressions": "78,680",
+                        "projectId": "b574ff10f8459a73581672aa354a224c"
+                    },
+                    {
+                        "id": "dYV-Qat05EmD0qzDGRZDp",
+                        "content": "Sint amet ullamco excepteur aliqua ad quis. Quis ea ipsum cillum nostrud in adipisicing velit magna nulla aliqua. Mollit ipsum do duis nisi fugiat ad aliqua veniam eu elit.",
+                        "type": "paragraph",
+                        "volume": "4,409,680",
+                        "impressions": "34,754",
+                        "projectId": "b574ff10f8459a73581672aa354a224c"
+                    },
+                    {
+                        "id": "CI7K0w_sxPmLX7ViDihMh",
+                        "content": "Nulla aliquip pariatur proident ex magna. Nostrud velit sunt nisi fugiat ipsum laborum eu.",
+                        "type": "paragraph",
+                        "volume": "6,984,732",
+                        "impressions": "74,500",
+                        "projectId": "b574ff10f8459a73581672aa354a224c"
+                    },
+                    {
+                        "id": "okakD8Bbtnfr69gLb0Jhy",
+                        "content": "Nostrud non adipisicing cillum adipisicing nostrud cillum minim et sint laboris do duis nisi aute. Lorem dolore adipisicing dolore adipisicing enim aute sunt officia anim voluptate aliquip veniam eu. Voluptate est ex eu laboris consectetur culpa esse.",
+                        "type": "paragraph",
+                        "volume": "3,949,285",
+                        "impressions": "58,755",
+                        "projectId": "b574ff10f8459a73581672aa354a224c"
+                    },
+                    {
+                        "id": "mGOOn6CXubd-GEM4jWMpA",
+                        "content": "Enim ad velit do proident enim sunt ex eiusmod pariatur eiusmod. Duis nostrud proident sit id adipisicing dolore pariatur laborum elit fugiat commodo laboris. Voluptate est sint ipsum laboris in anim Lorem minim adipisicing.",
+                        "type": "paragraph",
+                        "volume": "1,795,208",
+                        "impressions": "77,089",
+                        "projectId": "b574ff10f8459a73581672aa354a224c"
+                    },
+                    {
+                        "id": "ThnPy_5hSUn7Hhng_fg2y",
+                        "content": "Reprehenderit fugiat sint excepteur occaecat id duis cillum. Commodo cillum aliqua nisi do laborum ex cillum voluptate dolore sit deserunt. Ea culpa do cillum fugiat reprehenderit aliqua ex ex ipsum esse cillum. Sit esse voluptate dolore occaecat velit exercitation ea irure. Eiusmod sunt nostrud deserunt laboris incididunt id.",
+                        "type": "paragraph",
+                        "volume": "2,560,673",
+                        "impressions": "66,331",
+                        "projectId": "b574ff10f8459a73581672aa354a224c"
+                    },
+                    {
+                        "id": "5yAwlcrhx6UkDhyq6m-sb",
+                        "content": "Nulla minim do veniam. Elit cillum veniam id irure cillum duis ad duis irure elit adipisicing minim. Tempor Lorem ut sint cupidatat ea duis tempor mollit exercitation voluptate nostrud exercitation laborum ex nostrud. Et ad ea laboris deserunt sit ad incididunt magna esse nostrud et id est voluptate. Non consequat laborum esse aute pariatur laborum proident ut nulla magna eu.",
+                        "type": "paragraph",
+                        "volume": "9,468,303",
+                        "impressions": "71,554",
+                        "projectId": "b574ff10f8459a73581672aa354a224c"
+                    },
+                    {
+                        "id": "-r8RiwQ34VBpYwJnPEwTa",
+                        "content": "Ut dolore tempor laborum consequat consequat aliqua magna in. Aliquip veniam commodo non adipisicing commodo eu occaecat consequat. Velit consequat occaecat consequat ullamco incididunt voluptate eu eu dolor et. Esse do incididunt magna cupidatat do cillum cillum cupidatat officia dolor consequat aute.",
+                        "type": "paragraph",
+                        "volume": "7,478,399",
+                        "impressions": "18,437",
+                        "projectId": "b574ff10f8459a73581672aa354a224c"
+                    },
+                    {
+                        "id": "OcCdV9CpcD6RFlNbMRAkX",
+                        "content": "Id laborum et laboris aliqua esse labore consectetur velit sit. Mollit in nostrud minim sit esse. Fugiat commodo Lorem laboris consectetur enim officia reprehenderit enim.",
+                        "type": "paragraph",
+                        "volume": "3,962,964",
+                        "impressions": "11,538",
+                        "projectId": "b574ff10f8459a73581672aa354a224c"
+                    },
+                    {
+                        "id": "UD6T1Cr-Dk-UlCoRpDOy6",
+                        "content": "Dolore exercitation Lorem enim mollit nisi mollit aliqua eiusmod deserunt minim reprehenderit reprehenderit aute est. Elit eu nulla aliquip aliqua irure.",
+                        "type": "paragraph",
+                        "volume": "2,061,358",
+                        "impressions": "16,888",
+                        "projectId": "b574ff10f8459a73581672aa354a224c"
+                    },
+                    {
+                        "id": "VNzHW56jC2qZ5ZfZyvaHa",
+                        "content": "Incididunt ut tempor laboris dolor adipisicing ut magna occaecat sint duis. In reprehenderit voluptate enim pariatur fugiat est duis adipisicing do amet.",
+                        "type": "paragraph",
+                        "volume": "6,577,467",
+                        "impressions": "3,026",
+                        "projectId": "b574ff10f8459a73581672aa354a224c"
+                    },
+                    {
+                        "id": "A5Zd8FnxSxfCjBYc9Wk0C",
+                        "content": "Enim quis est commodo. Irure enim nostrud cupidatat anim quis.",
+                        "type": "paragraph",
+                        "volume": "4,464,552",
+                        "impressions": "86,014",
+                        "projectId": "b574ff10f8459a73581672aa354a224c"
+                    },
+                    {
+                        "id": "dYV-Qat05EmD0qzDGRZDp",
+                        "content": "Sint amet ullamco excepteur aliqua ad quis. Quis ea ipsum cillum nostrud in adipisicing velit magna nulla aliqua. Mollit ipsum do duis nisi fugiat ad aliqua veniam eu elit.",
+                        "type": "paragraph",
+                        "volume": "4,409,680",
+                        "impressions": "34,754",
+                        "projectId": "b574ff10f8459a73581672aa354a224c"
+                    },
+                    {
+                        "id": "LE6erbymZXt12lyPnimEx",
+                        "content": "Elit magna adipisicing ipsum. Consectetur ad do quis deserunt. Do nisi consequat aute consectetur duis veniam ea tempor quis mollit ullamco non. Cillum adipisicing est eu qui. Exercitation sint labore anim cillum.",
+                        "type": "paragraph",
+                        "volume": "9,205,917",
+                        "impressions": "9,700",
+                        "projectId": "b574ff10f8459a73581672aa354a224c"
+                    },
+                    {
+                        "id": "5yAwlcrhx6UkDhyq6m-sb",
+                        "content": "Nulla minim do veniam. Elit cillum veniam id irure cillum duis ad duis irure elit adipisicing minim. Tempor Lorem ut sint cupidatat ea duis tempor mollit exercitation voluptate nostrud exercitation laborum ex nostrud. Et ad ea laboris deserunt sit ad incididunt magna esse nostrud et id est voluptate. Non consequat laborum esse aute pariatur laborum proident ut nulla magna eu.",
+                        "type": "paragraph",
+                        "volume": "9,468,303",
+                        "impressions": "71,554",
+                        "projectId": "b574ff10f8459a73581672aa354a224c"
+                    },
+                    {
+                        "id": "Rrd3n8PvnRuzIttxaZGaR",
+                        "content": "Sunt nisi sunt sunt cillum velit non. Ut nostrud dolor excepteur ipsum ad culpa et non proident et ex. Magna dolore tempor consequat tempor nostrud do consectetur nostrud cupidatat dolore pariatur qui quis esse deserunt.",
+                        "type": "paragraph",
+                        "volume": "1,917,600",
+                        "impressions": "11,722",
+                        "projectId": "b574ff10f8459a73581672aa354a224c"
+                    },
+                    {
+                        "id": "_mITNEzu3ivxerKdx6Ar9",
+                        "content": "Commodo consectetur excepteur commodo ex et aliquip nostrud esse magna anim pariatur nisi. Cupidatat cillum dolore minim eiusmod amet ullamco voluptate magna nostrud. Exercitation cillum sint minim id commodo sunt dolor est nostrud.",
+                        "type": "paragraph",
+                        "volume": "4,928,498",
+                        "impressions": "72,274",
+                        "projectId": "b574ff10f8459a73581672aa354a224c"
+                    },
+                    {
+                        "id": "43D9zy3UESZece_kMfVaM",
+                        "content": "Officia non pariatur commodo officia enim sit qui non in consequat mollit qui et labore. Ut tempor irure ex id sit dolor ex. Laboris id mollit esse labore enim.",
+                        "type": "paragraph",
+                        "volume": "6,629,555",
+                        "impressions": "41,531",
+                        "projectId": "b574ff10f8459a73581672aa354a224c"
+                    },
+                    {
+                        "id": "bqrWZYmZ4S9SprWns2YLh",
+                        "content": "Officia culpa sit occaecat elit cillum eu amet ad non. Fugiat eu id ut anim duis enim fugiat. Esse culpa laborum pariatur amet reprehenderit mollit consectetur esse incididunt velit aliqua nisi non ad. Fugiat id Lorem adipisicing deserunt officia enim non exercitation mollit eu tempor aliqua reprehenderit officia excepteur. Enim eiusmod et aute tempor eu et consequat nisi minim id.",
+                        "type": "paragraph",
+                        "volume": "5,729,662",
+                        "impressions": "96,761",
+                        "projectId": "b574ff10f8459a73581672aa354a224c"
+                    },
+                    {
+                        "id": "jLe3wguIAODdbT4at1MDm",
+                        "content": "Labore occaecat sunt qui. Enim veniam laborum excepteur enim culpa labore cupidatat tempor non anim adipisicing. Laboris proident adipisicing ullamco officia qui consequat Lorem est ea nostrud. Ea veniam minim excepteur officia ea quis duis occaecat laborum amet consequat dolor deserunt esse nulla.",
+                        "type": "paragraph",
+                        "volume": "4,230,356",
+                        "impressions": "10,156",
+                        "projectId": "b574ff10f8459a73581672aa354a224c"
+                    },
+                    {
+                        "id": "UD6T1Cr-Dk-UlCoRpDOy6",
+                        "content": "Dolore exercitation Lorem enim mollit nisi mollit aliqua eiusmod deserunt minim reprehenderit reprehenderit aute est. Elit eu nulla aliquip aliqua irure.",
+                        "type": "paragraph",
+                        "volume": "2,061,358",
+                        "impressions": "16,888",
+                        "projectId": "b574ff10f8459a73581672aa354a224c"
+                    },
+                    {
+                        "id": "okakD8Bbtnfr69gLb0Jhy",
+                        "content": "Nostrud non adipisicing cillum adipisicing nostrud cillum minim et sint laboris do duis nisi aute. Lorem dolore adipisicing dolore adipisicing enim aute sunt officia anim voluptate aliquip veniam eu. Voluptate est ex eu laboris consectetur culpa esse.",
+                        "type": "paragraph",
+                        "volume": "3,949,285",
+                        "impressions": "58,755",
+                        "projectId": "b574ff10f8459a73581672aa354a224c"
+                    }
+                ]
+            },
+            "history": {}
+        },
+        "organization": {
+            "id": "d9b6f60f7301cbc4909c9e33dd2295a9",
+            "name": "Abhinay's Org"
+        },
+        "team": {
+            "id": "c728c389e23cb3870bf34d96cf50f97c",
+            "name": "Content Writers"
+        },
+        "product": {
+            "id": "fa65e689df489e2a39dc3f957908fe00",
+            "name": "Content Studio"
+        },
+        "creator": {
+            "user_id": "aaff8adf1e0b316e5882b7daccd7050b",
+            "name": "Abhinay Thakur"
+        }
+    }
+]

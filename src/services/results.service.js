@@ -21,7 +21,6 @@ const generateRandomResults = () => {
         list.push(result)
 
     }
-    console.log(list)
     return list
 }
 

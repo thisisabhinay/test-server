@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "npx nodemon . & yarn run sass",
+    "start": "npx nodemon . --listen & yarn run sass",
     "dev": "npx nodemon . & yarn run sass",
     "sass": "sass --watch views/index.sass public/css/main.css"
   },
