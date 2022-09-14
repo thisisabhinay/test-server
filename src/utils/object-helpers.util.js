@@ -14,14 +14,14 @@ const getNestedProp = (obj, props) => {
 const setNestedProp = (obj, props, value) => {
     let index = 0
     let currentValue = obj[props[index]]
-    if (props.length > 1 && typeof currentValue === "object")
-        return getNestedProp(currentValue, props.slice(index + 1))
-
+    if (props.length > 0 && typeof currentValue === "object") {
+        return setNestedProp(currentValue, props.slice(index + 1), value)
+    }
     obj[props[index]] = value
     return obj
 }
 
-module.exports = { 
-    getNestedProp, 
-    setNestedProp 
+module.exports = {
+    getNestedProp,
+    setNestedProp,
 }

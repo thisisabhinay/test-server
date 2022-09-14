@@ -33,9 +33,22 @@ const getUpdatedProjectWithProp = async (id, key, value) => {
     let updatedProject
     const props = key.split(".")
     const project = listHelpers.findInList(id, projects)[0]
-    updatedProject = objectHelpers.setNestedProp(project, props, value)
+    updatedProject = Object.assign(
+        project,
+        objectHelpers.setNestedProp(project, props, value),
+    )
 
+    console.log("UPr -> ", Object.keys(project))
     return updatedProject
+}
+
+const getUpdatedProjectWithContent = async (id, value) => {
+    const project = listHelpers.findInList(id, projects)[0]
+    if (!project) throw new Error("Unable to find project with id '%s'", id)
+
+    project.document.content = value
+    console.log("Prrr", project)
+    return project
 }
 
 const updateProject = async (updatedProject) => {
@@ -75,7 +88,7 @@ const getFilledProjectObj = async (props) => {
     newProject.id = props.id
     newProject.name = props.name
     newProject.url = `project/${props.id}`
-    newProject.document.content = props.content
+    newProject.document.content = props.content ?? ""
     newProject.document.results.list = generateProjectResults(props.id)
     newProject.document.usecase = {
         ...props.usecase,
@@ -88,11 +101,10 @@ const getFilledProjectObj = async (props) => {
     return newProject
 }
 
-
 const createNewProject = async (props) => {
     const newProject = await getFilledProjectObj(props)
     /**
-     * Get list of all project and then append this new project 
+     * Get list of all project and then append this new project
      * into the list, and write this updated list to .json file.
      */
     projects.push(newProject)
@@ -104,7 +116,10 @@ const createNewProject = async (props) => {
         JSON.stringify(projects, null, 4),
         (error) => {
             if (error) return error
-            console.log("New project (name: %s) is added to db/projects.json successfully", newProject?.name)
+            console.log(
+                "New project (name: %s) is added to db/projects.json successfully",
+                newProject?.name,
+            )
         },
     )
 
@@ -162,5 +177,6 @@ module.exports = {
     createNewProject,
     generateProjectResults,
     getUpdatedProjectWithProp,
-    getFilledProjectObj
+    getFilledProjectObj,
+    getUpdatedProjectWithContent,
 }

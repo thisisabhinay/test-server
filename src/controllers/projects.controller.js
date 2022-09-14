@@ -122,7 +122,7 @@ const updateNameById = async (req, res, next) => {
         res.json(await projects.updateProject(updatedProject))
     } catch (error) {
         console.error(
-            "Error while creating the new project with id '%s': %s",
+            "Error while renaming project with id '%s': %s",
             projectId,
             error.message,
         )
@@ -160,17 +160,17 @@ const updateContentById = async (req, res, next) => {
         projectId = req?.params?.id
 
         const data = req?.body
-        const props = {
-            id: data?.id,
-            name: data?.name,
-            content: data?.content,
-            usecase: data?.usecase,
-        }
-        const updatedProject = await projects.createNewProject(props)
+        console.log("data -> ", data)
+        const { id, content } = { ...data }
+        const updatedProject = await projects.getUpdatedProjectWithContent(
+            id,
+            content,
+        )
+        console.log("Updated project -> ", updatedProject)
         res.json(await projects.updateProject(updatedProject))
     } catch (error) {
         console.error(
-            "Error while creating the new project with id '%s': %s",
+            "Error while updating the content of project with id '%s': %s",
             projectId,
             error.message,
         )
