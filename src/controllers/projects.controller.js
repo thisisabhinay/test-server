@@ -142,7 +142,7 @@ const updateStatusById = async (req, res, next) => {
             content: data?.content,
             usecase: data?.usecase,
         }
-        const updatedProject = await projects.createNewProject(props)
+        const updatedProject = await projects.getUpdatedProjectWithProp(props)
         res.json(await projects.updateProject(updatedProject))
     } catch (error) {
         console.error(
