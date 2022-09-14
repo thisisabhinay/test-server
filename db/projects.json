@@ -2402,7 +2402,7 @@
         "id": "b574ff10f8459a73581672aa354a224c",
         "name": "Sharing Code Between React and React Native",
         "state": null,
-        "status": "Inbox",
+        "status": "Archive",
         "url": "project/b574ff10f8459a73581672aa354a224c",
         "createdDate": "2022-09-12T20:39:33.529Z",
         "lastEditdate": "2022-09-12T20:39:33.529Z",
@@ -2728,7 +2728,8 @@
                     }
                 ]
             },
-            "history": {}
+            "history": {},
+            "content": "<p><br></p>"
         },
         "organization": {
             "id": "d9b6f60f7301cbc4909c9e33dd2295a9",
@@ -8212,6 +8213,116 @@
         },
         "creator": {
             "user_id": "41f428ec0e3637b6d18c49cd2c500aa9",
+            "name": "Abhinay Thakur"
+        }
+    },
+    {
+        "id": "7d9cf1ea2860da107eaf56d704270f2b",
+        "name": "Untitled Project_37l",
+        "state": null,
+        "status": "Inbox",
+        "url": "project/7d9cf1ea2860da107eaf56d704270f2b",
+        "createdDate": "2022-09-14T21:42:26.032Z",
+        "lastEditdate": "2022-09-14T21:42:26.032Z",
+        "isDeleted": false,
+        "document": {
+            "usecase": {
+                "id": "SO-aWAI_k9WxQ3UmuNXVN",
+                "name": "Blog Title",
+                "description": "Compelling Titles inline with the search volume.",
+                "icon": "blog_title.svg",
+                "active": true,
+                "type": "blog",
+                "route": "/usecase/blog/blog-title/",
+                "configuration": [
+                    {
+                        "name": "topic",
+                        "type": "input",
+                        "label": "Topic",
+                        "placeholder": "e.g. Meditation",
+                        "value": null,
+                        "default_value": null,
+                        "optional": false,
+                        "charsLimit": 90
+                    }
+                ],
+                "url": "/usecase/blog/undefined/"
+            },
+            "results": {
+                "actions": {
+                    "favorite": true,
+                    "copy": true,
+                    "delete": true,
+                    "flag": true
+                },
+                "list": [
+                    {
+                        "id": "ODETCOq0u02JSVvrvG3nN",
+                        "content": "Consectetur consequat elit laboris exercitation sit nostrud nostrud laboris in ea. Sunt sint occaecat exercitation aute magna ullamco non Lorem cupidatat laboris.",
+                        "type": "paragraph",
+                        "volume": "4,375,697",
+                        "impressions": "48,849",
+                        "projectId": "7d9cf1ea2860da107eaf56d704270f2b"
+                    },
+                    {
+                        "id": "IjFF5vg51e7hH_f_9BvPz",
+                        "content": "Mollit laboris ex ad. Id eiusmod ut duis voluptate officia cillum labore exercitation quis enim anim sit aliqua. Deserunt eiusmod voluptate veniam veniam anim ipsum cupidatat adipisicing quis ea excepteur aliqua aute.",
+                        "type": "paragraph",
+                        "volume": "3,753,011",
+                        "impressions": "98,715",
+                        "projectId": "7d9cf1ea2860da107eaf56d704270f2b"
+                    },
+                    {
+                        "id": "MpCiE5q_RA9Y10E-70lr6",
+                        "content": "Voluptate aliquip non veniam in nostrud elit et ullamco. Quis nostrud ad commodo sit commodo officia consectetur adipisicing ut culpa deserunt dolor. Dolor occaecat aliqua consectetur in adipisicing eiusmod excepteur ex pariatur irure exercitation magna proident occaecat commodo. Eiusmod aliquip sit velit dolore id nostrud fugiat exercitation nisi veniam occaecat occaecat.",
+                        "type": "paragraph",
+                        "volume": "5,167,373",
+                        "impressions": "91,583",
+                        "projectId": "7d9cf1ea2860da107eaf56d704270f2b"
+                    },
+                    {
+                        "id": "85Kpx4UdSu58hQkgpUtzl",
+                        "content": "Anim elit ad pariatur nisi sunt sunt proident amet dolor. Pariatur velit Lorem id officia proident exercitation laboris et. Veniam laboris mollit sint exercitation minim qui et irure reprehenderit ad adipisicing duis nulla amet nisi.",
+                        "type": "paragraph",
+                        "volume": "8,398,090",
+                        "impressions": "16,924",
+                        "projectId": "7d9cf1ea2860da107eaf56d704270f2b"
+                    },
+                    {
+                        "id": "JFmBXBVWHXdSZcaDDYiR1",
+                        "content": "Excepteur occaecat id voluptate. Sit aliqua qui aute magna cillum et quis mollit laborum mollit. Amet magna in quis. Nulla veniam irure labore. Cillum duis sit enim veniam.",
+                        "type": "paragraph",
+                        "volume": "3,510,680",
+                        "impressions": "7,363",
+                        "projectId": "7d9cf1ea2860da107eaf56d704270f2b"
+                    },
+                    {
+                        "id": "ezqyBLrm7Orc8KSk_YOsa",
+                        "content": "Consectetur do anim proident aliqua duis sunt deserunt ad deserunt ad ea in id non. Exercitation ut pariatur laborum aute nostrud laborum.",
+                        "type": "paragraph",
+                        "volume": "6,373,553",
+                        "impressions": "85,628",
+                        "projectId": "7d9cf1ea2860da107eaf56d704270f2b"
+                    }
+                ]
+            },
+            "history": {},
+            "content": "<p><br></p>"
+        },
+        "organization": {
+            "id": "5ec629a6372f23937e67cfec02e9b156",
+            "name": "Abhinay's Org"
+        },
+        "team": {
+            "id": "f3c7a59e1a15903e3bd36cc327b65bee",
+            "name": "Content Writers"
+        },
+        "product": {
+            "id": "725cea6d6d577a8b9d7a95a131bfd765",
+            "name": "Content Studio"
+        },
+        "creator": {
+            "user_id": "a5d7fb82d65c424f4c7889c0e1ac9ad1",
             "name": "Abhinay Thakur"
         }
     }
