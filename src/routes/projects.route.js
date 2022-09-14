@@ -13,18 +13,17 @@ router.get(["/"], projectsController.getAll)
 router.get(["/:id"], projectsController.getById)
 
 /**
- * GET more suggestions for the given project
- */
-router.get(["/:id/suggestions"], projectsController.getSuggestionsById)
-
-/**
- * PATCH the given project with updated data 
- */
-router.patch(["/:id"], projectsController.updateById)
-
-/**
  * POST the new project in the projects list 
  */
 router.post(["/:id"], projectsController.create)
+
+/**
+ * PATCH(s) the given project with provided properties in request body 
+ */
+router.get(["/:id/suggestions"], projectsController.fetchUpdateSuggestionsById)
+router.patch(["/:id/usecase"], projectsController.updateUsecaseById)
+router.patch(["/:id/name"], projectsController.updateNameById)
+router.patch(["/:id/status"], projectsController.updateStatusById)
+router.patch(["/:id/content"], projectsController.updateContentById)
 
 module.exports = router

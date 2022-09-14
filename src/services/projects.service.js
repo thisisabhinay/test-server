@@ -1,4 +1,5 @@
 const listHelpers = require("../utils/list-helpers.util")
+const objectHelpers = require("../utils/object-helpers.util")
 const cryptoHelpers = require("../utils/crypto-helpers.util")
 const projects = require("../../db/projects.json")
 const results = require("../services/results.service")
@@ -9,8 +10,6 @@ const getAllProjects = async () => {
 }
 
 const getProjectById = async (id) => {
-    console.log(id)
-    console.log(listHelpers.findInList(id, projects))
     return listHelpers.findInList(id, projects)[0]
 }
 
@@ -30,6 +29,15 @@ const getUpdatedProjectObj = async (id, update) => {
     return updatedProject
 }
 
+const getUpdatedProjectWithProp = async (id, key, value) => {
+    let updatedProject
+    const props = key.split(".")
+    const project = listHelpers.findInList(id, projects)[0]
+    updatedProject = objectHelpers.setNestedProp(project, props, value)
+
+    return updatedProject
+}
+
 const updateProject = async (updatedProject) => {
     const targetId = updatedProject.id
     const keyToMatch = "id"
@@ -38,14 +46,11 @@ const updateProject = async (updatedProject) => {
         targetId,
         projects,
     )
-
-    console.log("Index", index)
     /**
      * Replaces the targeted object in the list with updated one
      */
     projects[index] = updatedProject
 
-    console.log(updatedProject, index)
     fileSys.writeFile(
         "./db/projects.json",
         JSON.stringify(projects, null, 4),
@@ -65,10 +70,8 @@ const generateProjectResults = (projectId) => {
     })
 }
 
-const createNewProject = async (props) => {
+const getFilledProjectObj = async (props) => {
     const newProject = createEmptyProject()
-    const targetId = props.id
-    const keyToMatch = "id"
     newProject.id = props.id
     newProject.name = props.name
     newProject.url = `project/${props.id}`
@@ -81,26 +84,30 @@ const createNewProject = async (props) => {
             .join("-")
             .toLowerCase()}/`,
     }
+
+    return newProject
+}
+
+
+const createNewProject = async (props) => {
+    const newProject = await getFilledProjectObj(props)
     /**
-     * Check if project with this id already exist or not
+     * Get list of all project and then append this new project 
+     * into the list, and write this updated list to .json file.
      */
-    const existingIndex = listHelpers.getMatchingObjectIndex(
-        keyToMatch,
-        targetId,
-        projects,
-    )
-    existingIndex ? updateProject(newProject) : projects.push(newProject)
+    projects.push(newProject)
+
+    console.log("New Project -> ", newProject)
 
     fileSys.writeFile(
         "./db/projects.json",
         JSON.stringify(projects, null, 4),
         (error) => {
             if (error) return error
-            console.log("File db/projects.json is written successfully")
+            console.log("New project (name: %s) is added to db/projects.json successfully", newProject?.name)
         },
     )
 
-    console.log(projects)
     return newProject
 }
 
@@ -154,4 +161,6 @@ module.exports = {
     updateProject,
     createNewProject,
     generateProjectResults,
+    getUpdatedProjectWithProp,
+    getFilledProjectObj
 }

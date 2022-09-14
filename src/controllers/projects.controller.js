@@ -28,20 +28,22 @@ const getById = async (req, res, next) => {
     }
 }
 
-const updateById = async(req, res, next) => {
+const create = async (req, res, next) => {
     let projectId
     try {
         projectId = req?.params?.id
-        console.log(projectId)
 
-        const update = req?.body
-        console.log("Update - ", update)
-        const updatedProject = await projects.getUpdatedProjectObj(projectId, update)
-        console.log(updatedProject)
-        res.json(await projects.updateProject(updatedProject))
+        const data = req?.body
+        const props = {
+            id: data?.id,
+            name: data?.name,
+            content: data?.content,
+            usecase: data?.usecase,
+        }
+        res.json(await projects.createNewProject(props))
     } catch (error) {
         console.error(
-            "Error while updating the project with id '%s' in the DB: %s",
+            "Error while creating the new project with id '%s': %s",
             projectId,
             error.message,
         )
@@ -49,17 +51,49 @@ const updateById = async(req, res, next) => {
     }
 }
 
-const create = async(req, res, next) => {
+const fetchUpdateSuggestionsById = async (req, res, next) => {
+    let projectId
+    try {
+        projectId = req?.params?.id
+        const project = await projects.getProjectById(projectId)
+        const newSuggestions = await projects.generateProjectResults(projectId)
+        console.log("Param Id -> ", projectId)
+        console.log("Project -> ", project)
+        console.log("Old Count -> ", project.document.results.list?.length)
+        console.log("New Count -> ", newSuggestions?.length)
+        console.log(
+            "Total Expected Count -> ",
+            project.document.results.list?.length + newSuggestions?.length,
+        )
+        project.document.results.list =
+            project.document.results.list.concat(newSuggestions)
+
+        console.log(
+            "Total Actual Count -> ",
+            project.document.results.list?.length,
+        )
+        res.json(await projects.updateProject(project))
+    } catch (error) {
+        console.error(
+            "Error while creating the new project with id '%s': %s",
+            projectId,
+            error.message,
+        )
+        next(error)
+    }
+}
+
+const updateUsecaseById = async (req, res, next) => {
     let projectId
     try {
         projectId = req?.params?.id
 
-        const data= req?.body
+        const data = req?.body
         const props = {
             id: data?.id,
             name: data?.name,
             content: data?.content,
-            usecase: data?.usecase
+            usecase: data?.usecase,
         }
         const updatedProject = await projects.createNewProject(props)
         res.json(await projects.updateProject(updatedProject))
@@ -73,21 +107,70 @@ const create = async(req, res, next) => {
     }
 }
 
-const getSuggestionsById = async (req, res, next) => {
+const updateNameById = async (req, res, next) => {
     let projectId
-
     try {
         projectId = req?.params?.id
 
-        const project = await projects.getProjectById(projectId)
-        const newResults = projects.generateProjectResults(projectId)
-        
-        project.document.results.list = project.document.results.list.concat(newResults)
-        projects.updateProject(project)
-        res.json(project.document.results.list)
+        const data = req?.body
+        const { id, name } = { ...data }
+        const updatedProject = await projects.getUpdatedProjectWithProp(
+            id,
+            "name",
+            name,
+        )
+        res.json(await projects.updateProject(updatedProject))
     } catch (error) {
         console.error(
-            "Error while getting fetching suggestions for project with id '%s' from the DB: %s",
+            "Error while creating the new project with id '%s': %s",
+            projectId,
+            error.message,
+        )
+        next(error)
+    }
+}
+
+const updateStatusById = async (req, res, next) => {
+    let projectId
+    try {
+        projectId = req?.params?.id
+
+        const data = req?.body
+        const props = {
+            id: data?.id,
+            name: data?.name,
+            content: data?.content,
+            usecase: data?.usecase,
+        }
+        const updatedProject = await projects.createNewProject(props)
+        res.json(await projects.updateProject(updatedProject))
+    } catch (error) {
+        console.error(
+            "Error while creating the new project with id '%s': %s",
+            projectId,
+            error.message,
+        )
+        next(error)
+    }
+}
+
+const updateContentById = async (req, res, next) => {
+    let projectId
+    try {
+        projectId = req?.params?.id
+
+        const data = req?.body
+        const props = {
+            id: data?.id,
+            name: data?.name,
+            content: data?.content,
+            usecase: data?.usecase,
+        }
+        const updatedProject = await projects.createNewProject(props)
+        res.json(await projects.updateProject(updatedProject))
+    } catch (error) {
+        console.error(
+            "Error while creating the new project with id '%s': %s",
             projectId,
             error.message,
         )
@@ -98,7 +181,10 @@ const getSuggestionsById = async (req, res, next) => {
 module.exports = {
     getAll,
     getById,
-    updateById,
     create,
-    getSuggestionsById
+    fetchUpdateSuggestionsById,
+    updateUsecaseById,
+    updateNameById,
+    updateStatusById,
+    updateContentById,
 }

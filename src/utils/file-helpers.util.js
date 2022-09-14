@@ -1,7 +1,6 @@
 const fileSystem = require("fs")
 
 const writeToFile = async (filePath, data) => {
-    console.log("writing file")
     await fileSystem.writeFile(
         filePath,
         JSON.stringify(data, null, 4),
